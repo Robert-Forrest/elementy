@@ -15,7 +15,7 @@ testpaths = [
 ]
 
 [tool.mypy]
-mypy_path = "src"
+mypy_path = "elementary"
 plugins = numpy.typing.mypy_plugin
 check_untyped_defs = true
 disallow_any_generics = true
