@@ -16,10 +16,10 @@ Hydrogen = Element(**{
     "block": "s",
     "series": "nonMetal",
     "orbitals": [
-      {
-        "orbital": "1s",
-        "electrons": 1
-      }
+        {
+            "orbital": "1s",
+            "electrons": 1
+        }
     ],
     "electrons": 1,
     "protons": 1,
@@ -36,7 +36,7 @@ Hydrogen = Element(**{
     "electronegativity_pauling": 2.2,
     "electronegativity_allen": 2.3,
     "ionisationEnergies": [
-      1312
+        1312
     ],
     "chemicalHardness": 12.84,
     "chemicalPotential": -7.18,
@@ -58,6 +58,7 @@ Hydrogen = Element(**{
 ELEMENTS = [
     Hydrogen
 ]
+
 
 def get_elements():
     return ELEMENTS
