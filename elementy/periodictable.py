@@ -1,6 +1,6 @@
 import pandas as pd
 
-import elementary.elements as elements
+import elementy.elements as elements
 
 
 class PeriodicTable():

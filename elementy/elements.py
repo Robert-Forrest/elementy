@@ -1,4 +1,4 @@
-from elementary.element import Element
+from elementy.element import Element
 
 Hydrogen = Element(**{
     "name": "Hydrogen",

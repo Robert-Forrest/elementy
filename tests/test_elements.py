@@ -1,4 +1,4 @@
-import elementary.elements as elements
+import elementy.elements as elements
 
 
 def test_element_symbol():

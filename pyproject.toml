@@ -3,19 +3,19 @@ requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
-write_to = "elementary/_version.py"
+write_to = "elementy/_version.py"
 
 [tool.black]
 line-length = 79
 
 [tool.pytest.ini_options]
-addopts = "--cov=elementary"
+addopts = "--cov=elementy"
 testpaths = [
     "tests",
 ]
 
 # [tool.mypy]
-# mypy_path = "elementary"
+# mypy_path = "elementy"
 # plugins = numpy.typing.mypy_plugin
 # check_untyped_defs = true
 # disallow_any_generics = true
