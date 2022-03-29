@@ -7,5 +7,5 @@ class PeriodicTable():
     def __init__(self):
         self.elements = elements.get_elements()
 
-        self.data = pd.DataFrame(
+        self.dataframe = pd.DataFrame(
             [element.__dict__ for element in self.elements])
