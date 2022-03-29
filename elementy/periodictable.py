@@ -11,9 +11,9 @@ class PeriodicTable():
             [element.__dict__ for element in self.elements])
         self.dataframe = self.dataframe.set_index(['symbol'])
 
-        self.dict = {}
+        self.data = {}
         for element in self.elements:
-            self.dict[element.symbol] = element.__dict__
+            self.data[element.symbol] = element.__dict__
 
     def get_data(self, feature_names=None, elements=None):
 
