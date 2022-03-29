@@ -10,7 +10,6 @@ class PeriodicTable():
         self.dataframe = pd.DataFrame(
             [element.__dict__ for element in self.elements])
 
-
     def get_data(self, feature_name, elements=None):
 
         if elements is not None:
