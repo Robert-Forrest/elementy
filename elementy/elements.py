@@ -35,6 +35,7 @@ Hydrogen = Element(**{
     "work_function": None,
     "electronegativity_pauling": 2.2,
     "electronegativity_allen": 2.3,
+    "electronegativity_miedema": 5.2,
     "ionisation_energies": [
         1312
     ],
@@ -89,6 +90,7 @@ Helium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 3.1,
     "electronegativity_allen": 4.16,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         2372.3,
         5250.5
@@ -145,6 +147,7 @@ Lithium = Element(**{
     "work_function": 2.93,
     "electronegativity_pauling": 0.98,
     "electronegativity_allen": 0.912,
+    "electronegativity_miedema": 2.85,
     "ionisation_energies": [
         520.2,
         7298.1
@@ -203,6 +206,7 @@ Berylium = Element(**{
     "work_function": 4.98,
     "electronegativity_pauling": 1.57,
     "electronegativity_allen": 1.576,
+    "electronegativity_miedema": 5.05,
     "ionisation_energies": [
         899.5,
         1757.1
@@ -264,6 +268,7 @@ Boron = Element(**{
     "work_function": 4.45,
     "electronegativity_pauling": 2.04,
     "electronegativity_allen": 2.051,
+    "electronegativity_miedema": 5.3,
     "ionisation_energies": [
         800.6,
         2427.1
@@ -325,6 +330,7 @@ Carbon = Element(**{
     "work_function": 5,
     "electronegativity_pauling": 2.55,
     "electronegativity_allen": 2.544,
+    "electronegativity_miedema": 6.24,
     "ionisation_energies": [
         1086.5,
         2352.6
@@ -386,6 +392,7 @@ Nitrogen = Element(**{
     "work_function": None,
     "electronegativity_pauling": 3.04,
     "electronegativity_allen": 3.066,
+    "electronegativity_miedema": 6.86,
     "ionisation_energies": [
         1402.3,
         2856
@@ -446,6 +453,7 @@ Oxygen = Element(**{
     "work_function": None,
     "electronegativity_pauling": 3.44,
     "electronegativity_allen": 3.61,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1313.9,
         3388.3
@@ -506,6 +514,7 @@ Fluorine = Element(**{
     "work_function": None,
     "electronegativity_pauling": 3.98,
     "electronegativity_allen": 4.193,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1681,
         3374.2
@@ -566,6 +575,7 @@ Neon = Element(**{
     "work_function": None,
     "electronegativity_pauling": 3.2,
     "electronegativity_allen": 4.787,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         2080.7,
         3952.3
@@ -623,6 +633,7 @@ Sodium = Element(**{
     "work_function": 2.36,
     "electronegativity_pauling": 0.93,
     "electronegativity_allen": 0.869,
+    "electronegativity_miedema": 2.7,
     "ionisation_energies": [
         495.8,
         4562
@@ -681,6 +692,7 @@ Magnesium = Element(**{
     "work_function": 3.66,
     "electronegativity_pauling": 1.31,
     "electronegativity_allen": 1.293,
+    "electronegativity_miedema": 3.45,
     "ionisation_energies": [
         737.7,
         1450.7
@@ -743,6 +755,7 @@ Aluminium = Element(**{
     "work_function": 4.2,
     "electronegativity_pauling": 1.61,
     "electronegativity_allen": 1.613,
+    "electronegativity_miedema": 4.2,
     "ionisation_energies": [
         577.5,
         1816.7
@@ -805,6 +818,7 @@ Silicon = Element(**{
     "work_function": 4.85,
     "electronegativity_pauling": 1.9,
     "electronegativity_allen": 1.916,
+    "electronegativity_miedema": 4.7,
     "ionisation_energies": [
         786.5,
         1577.1
@@ -866,6 +880,7 @@ Phosphorus = Element(**{
     "work_function": 4.5,
     "electronegativity_pauling": 2.19,
     "electronegativity_allen": 2.253,
+    "electronegativity_miedema": 5.55,
     "ionisation_energies": [
         1011.8,
         1907
@@ -927,6 +942,7 @@ Sulfur = Element(**{
     "work_function": None,
     "electronegativity_pauling": 2.58,
     "electronegativity_allen": 2.589,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         999.6,
         2252
@@ -988,6 +1004,7 @@ Chlorine = Element(**{
     "work_function": None,
     "electronegativity_pauling": 3.16,
     "electronegativity_allen": 2.869,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1251.2,
         2298
@@ -1048,6 +1065,7 @@ Argon = Element(**{
     "work_function": None,
     "electronegativity_pauling": 3.1,
     "electronegativity_allen": 3.242,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1520.6,
         2665.8
@@ -1105,6 +1123,7 @@ Potassium = Element(**{
     "work_function": 2.29,
     "electronegativity_pauling": 0.82,
     "electronegativity_allen": 0.734,
+    "electronegativity_miedema": 2.25,
     "ionisation_energies": [
         418.8,
         3052
@@ -1163,6 +1182,7 @@ Calcium = Element(**{
     "work_function": 2.87,
     "electronegativity_pauling": 1,
     "electronegativity_allen": 1.034,
+    "electronegativity_miedema": 2.55,
     "ionisation_energies": [
         589.8,
         1145.4
@@ -1225,6 +1245,7 @@ Scandium = Element(**{
     "work_function": 3.5,
     "electronegativity_pauling": 1.36,
     "electronegativity_allen": 1.19,
+    "electronegativity_miedema": 3.25,
     "ionisation_energies": [
         633.1,
         1235
@@ -1286,6 +1307,7 @@ Titanium = Element(**{
     "work_function": 4.33,
     "electronegativity_pauling": 1.54,
     "electronegativity_allen": 1.38,
+    "electronegativity_miedema": 3.8,
     "ionisation_energies": [
         658.8,
         1309.8
@@ -1347,6 +1369,7 @@ Vanadium = Element(**{
     "work_function": 4.3,
     "electronegativity_pauling": 1.63,
     "electronegativity_allen": 1.53,
+    "electronegativity_miedema": 4.25,
     "ionisation_energies": [
         650.9,
         1414
@@ -1408,6 +1431,7 @@ Chromium = Element(**{
     "work_function": 4.5,
     "electronegativity_pauling": 1.66,
     "electronegativity_allen": 1.65,
+    "electronegativity_miedema": 4.65,
     "ionisation_energies": [
         652.9,
         1590.6
@@ -1469,6 +1493,7 @@ Manganese = Element(**{
     "work_function": 4.1,
     "electronegativity_pauling": 1.55,
     "electronegativity_allen": 1.75,
+    "electronegativity_miedema": 4.45,
     "ionisation_energies": [
         717.3,
         1509
@@ -1530,6 +1555,7 @@ Iron = Element(**{
     "work_function": 4.67,
     "electronegativity_pauling": 1.83,
     "electronegativity_allen": 1.8,
+    "electronegativity_miedema": 4.93,
     "ionisation_energies": [
         762.5,
         1561.9
@@ -1591,6 +1617,7 @@ Cobalt = Element(**{
     "work_function": 5,
     "electronegativity_pauling": 1.88,
     "electronegativity_allen": 1.84,
+    "electronegativity_miedema": 5.1,
     "ionisation_energies": [
         760.4,
         1648
@@ -1653,6 +1680,7 @@ Nickel = Element(**{
     "work_function": 5.22,
     "electronegativity_pauling": 1.91,
     "electronegativity_allen": 1.88,
+    "electronegativity_miedema": 5.2,
     "ionisation_energies": [
         737.1,
         1753
@@ -1715,6 +1743,7 @@ Copper = Element(**{
     "work_function": 5.1,
     "electronegativity_pauling": 1.9,
     "electronegativity_allen": 1.85,
+    "electronegativity_miedema": 4.45,
     "ionisation_energies": [
         745.5,
         1957.9
@@ -1777,6 +1806,7 @@ Zinc = Element(**{
     "work_function": 3.63,
     "electronegativity_pauling": 1.65,
     "electronegativity_allen": 1.588,
+    "electronegativity_miedema": 4.1,
     "ionisation_energies": [
         906.4,
         1733.3
@@ -1843,6 +1873,7 @@ Gallium = Element(**{
     "work_function": 4.32,
     "electronegativity_pauling": 1.81,
     "electronegativity_allen": 1.756,
+    "electronegativity_miedema": 4.1,
     "ionisation_energies": [
         578.8,
         1979.3
@@ -1908,6 +1939,7 @@ Germanium = Element(**{
     "work_function": 5,
     "electronegativity_pauling": 2.01,
     "electronegativity_allen": 1.994,
+    "electronegativity_miedema": 4.55,
     "ionisation_energies": [
         762,
         1537.5
@@ -1973,6 +2005,7 @@ Arsenic = Element(**{
     "work_function": 3.75,
     "electronegativity_pauling": 2.18,
     "electronegativity_allen": 2.211,
+    "electronegativity_miedema": 4.8,
     "ionisation_energies": [
         947,
         1798
@@ -2038,6 +2071,7 @@ Selenium = Element(**{
     "work_function": 5.9,
     "electronegativity_pauling": 2.55,
     "electronegativity_allen": 2.424,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         941,
         2045
@@ -2103,6 +2137,7 @@ Bromine = Element(**{
     "work_function": None,
     "electronegativity_pauling": 2.96,
     "electronegativity_allen": 2.685,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1139.9,
         2103
@@ -2167,6 +2202,7 @@ Krypton = Element(**{
     "work_function": None,
     "electronegativity_pauling": 3,
     "electronegativity_allen": 2.966,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1350.8,
         2350.4
@@ -2224,6 +2260,7 @@ Rubidium = Element(**{
     "work_function": 2.261,
     "electronegativity_pauling": 0.82,
     "electronegativity_allen": 0.706,
+    "electronegativity_miedema": 2.1,
     "ionisation_energies": [
         403,
         2633
@@ -2282,6 +2319,7 @@ Strontium = Element(**{
     "work_function": 2.59,
     "electronegativity_pauling": 0.95,
     "electronegativity_allen": 0.963,
+    "electronegativity_miedema": 2.4,
     "ionisation_energies": [
         549.5,
         1064.2
@@ -2343,6 +2381,7 @@ Yttrium = Element(**{
     "work_function": 3.1,
     "electronegativity_pauling": 1.22,
     "electronegativity_allen": 1.12,
+    "electronegativity_miedema": 3.2,
     "ionisation_energies": [
         600,
         1180
@@ -2404,6 +2443,7 @@ Zirconium = Element(**{
     "work_function": 4.05,
     "electronegativity_pauling": 1.33,
     "electronegativity_allen": 1.32,
+    "electronegativity_miedema": 3.45,
     "ionisation_energies": [
         640.1,
         1270
@@ -2465,6 +2505,7 @@ Niobium = Element(**{
     "work_function": 4.02,
     "electronegativity_pauling": 1.6,
     "electronegativity_allen": 1.41,
+    "electronegativity_miedema": 4.05,
     "ionisation_energies": [
         652.1,
         1380
@@ -2526,6 +2567,7 @@ Molybdenum = Element(**{
     "work_function": 4.53,
     "electronegativity_pauling": 2.16,
     "electronegativity_allen": 1.47,
+    "electronegativity_miedema": 4.65,
     "ionisation_energies": [
         684.3,
         1560
@@ -2587,6 +2629,7 @@ Technetium = Element(**{
     "work_function": 4.58,
     "electronegativity_pauling": 1.9,
     "electronegativity_allen": 1.51,
+    "electronegativity_miedema": 5.3,
     "ionisation_energies": [
         702,
         1470
@@ -2648,6 +2691,7 @@ Ruthenium = Element(**{
     "work_function": 4.71,
     "electronegativity_pauling": 2.2,
     "electronegativity_allen": 1.54,
+    "electronegativity_miedema": 5.4,
     "ionisation_energies": [
         710.2,
         1620
@@ -2709,6 +2753,7 @@ Rhodium = Element(**{
     "work_function": 4.98,
     "electronegativity_pauling": 2.28,
     "electronegativity_allen": 1.56,
+    "electronegativity_miedema": 5.4,
     "ionisation_energies": [
         719.7,
         1740
@@ -2767,6 +2812,7 @@ Palladium = Element(**{
     "work_function": 4.85,
     "electronegativity_pauling": 2.2,
     "electronegativity_allen": 1.58,
+    "electronegativity_miedema": 5.45,
     "ionisation_energies": [
         804.4,
         1870
@@ -2829,6 +2875,7 @@ Silver = Element(**{
     "work_function": 4.64,
     "electronegativity_pauling": 1.93,
     "electronegativity_allen": 1.87,
+    "electronegativity_miedema": 4.35,
     "ionisation_energies": [
         731,
         2070
@@ -2891,6 +2938,7 @@ Cadmium = Element(**{
     "work_function": 4.08,
     "electronegativity_pauling": 1.69,
     "electronegativity_allen": 1.521,
+    "electronegativity_miedema": 4.05,
     "ionisation_energies": [
         867.8,
         1631.4
@@ -2957,6 +3005,7 @@ Indium = Element(**{
     "work_function": 4.09,
     "electronegativity_pauling": 1.78,
     "electronegativity_allen": 1.656,
+    "electronegativity_miedema": 3.9,
     "ionisation_energies": [
         558.3,
         1820.7
@@ -3022,6 +3071,7 @@ Tin = Element(**{
     "work_function": 4.42,
     "electronegativity_pauling": 1.96,
     "electronegativity_allen": 1.824,
+    "electronegativity_miedema": 4.15,
     "ionisation_energies": [
         708.6,
         1411.8
@@ -3087,6 +3137,7 @@ Antimony = Element(**{
     "work_function": 4.55,
     "electronegativity_pauling": 2.05,
     "electronegativity_allen": 1.984,
+    "electronegativity_miedema": 4.4,
     "ionisation_energies": [
         834,
         1594.9
@@ -3218,6 +3269,7 @@ Iodine = Element(**{
     "work_function": None,
     "electronegativity_pauling": 2.66,
     "electronegativity_allen": 2.359,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1008.4,
         1845.9
@@ -3282,6 +3334,7 @@ Xenon = Element(**{
     "work_function": None,
     "electronegativity_pauling": 2.6,
     "electronegativity_allen": 2.582,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1170.4,
         2046.4
@@ -3339,6 +3392,7 @@ Caesium = Element(**{
     "work_function": 1.95,
     "electronegativity_pauling": 0.79,
     "electronegativity_allen": 0.659,
+    "electronegativity_miedema": 1.95,
     "ionisation_energies": [
         375.7,
         2234.3
@@ -3397,6 +3451,7 @@ Barium = Element(**{
     "work_function": 2.52,
     "electronegativity_pauling": 0.89,
     "electronegativity_allen": 0.881,
+    "electronegativity_miedema": 2.32,
     "ionisation_energies": [
         502.9,
         965.2
@@ -3457,6 +3512,7 @@ Lanthanum = Element(**{
     "work_function": 3.5,
     "electronegativity_pauling": 1.1,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.17,
     "ionisation_energies": [
         538.1,
         1067
@@ -3521,6 +3577,7 @@ Cerium = Element(**{
     "work_function": 2.9,
     "electronegativity_pauling": 1.12,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.18,
     "ionisation_energies": [
         534.4,
         1050
@@ -3582,6 +3639,7 @@ Praseodymium = Element(**{
     "work_function": 2.7,
     "electronegativity_pauling": 1.13,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.19,
     "ionisation_energies": [
         527,
         1020
@@ -3643,6 +3701,7 @@ Neodymium = Element(**{
     "work_function": 3.2,
     "electronegativity_pauling": 1.14,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.19,
     "ionisation_energies": [
         533.1,
         1040
@@ -3704,6 +3763,7 @@ Promethium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.13,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.19,
     "ionisation_energies": [
         540,
         1050
@@ -3765,6 +3825,7 @@ Samarium = Element(**{
     "work_function": 2.7,
     "electronegativity_pauling": 1.17,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.2,
     "ionisation_energies": [
         544.5,
         1070
@@ -3826,6 +3887,7 @@ Europium = Element(**{
     "work_function": 2.5,
     "electronegativity_pauling": 1.2,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.2,
     "ionisation_energies": [
         547.1,
         1085
@@ -3891,6 +3953,7 @@ Gadolinium = Element(**{
     "work_function": 2.9,
     "electronegativity_pauling": 1.2,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.2,
     "ionisation_energies": [
         593.4,
         1170
@@ -3952,6 +4015,7 @@ Terbium = Element(**{
     "work_function": 3,
     "electronegativity_pauling": 1.1,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.21,
     "ionisation_energies": [
         565.8,
         1110
@@ -4013,6 +4077,7 @@ Dysprosium = Element(**{
     "work_function": 3.25,
     "electronegativity_pauling": 1.22,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.21,
     "ionisation_energies": [
         573,
         1130
@@ -4074,6 +4139,7 @@ Holmium = Element(**{
     "work_function": 2.91,
     "electronegativity_pauling": 1.23,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.22,
     "ionisation_energies": [
         581,
         1140
@@ -4135,6 +4201,7 @@ Erbium = Element(**{
     "work_function": 3.25,
     "electronegativity_pauling": 1.24,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.22,
     "ionisation_energies": [
         589.3,
         1150
@@ -4196,6 +4263,7 @@ Thulium = Element(**{
     "work_function": 3.22,
     "electronegativity_pauling": 1.25,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.22,
     "ionisation_energies": [
         596.7,
         1160
@@ -4257,6 +4325,7 @@ Ytterbium = Element(**{
     "work_function": 2.6,
     "electronegativity_pauling": 1.1,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.22,
     "ionisation_energies": [
         603.4,
         1174.8
@@ -4322,6 +4391,7 @@ Lutetium = Element(**{
     "work_function": 3.3,
     "electronegativity_pauling": 1.27,
     "electronegativity_allen": 1.09,
+    "electronegativity_miedema": 3.22,
     "ionisation_energies": [
         523.5,
         1340
@@ -4387,6 +4457,7 @@ Hafnium = Element(**{
     "work_function": 3.9,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": 1.16,
+    "electronegativity_miedema": 3.6,
     "ionisation_energies": [
         658.5,
         1440
@@ -4452,6 +4523,7 @@ Tantalum = Element(**{
     "work_function": 4.25,
     "electronegativity_pauling": 1.5,
     "electronegativity_allen": 1.34,
+    "electronegativity_miedema": 4.05,
     "ionisation_energies": [
         761,
         1500
@@ -4517,6 +4589,7 @@ Tungsten = Element(**{
     "work_function": 4.55,
     "electronegativity_pauling": 2.36,
     "electronegativity_allen": 1.47,
+    "electronegativity_miedema": 4.8,
     "ionisation_energies": [
         770,
         1700
@@ -4582,6 +4655,7 @@ Rhenium = Element(**{
     "work_function": 4.72,
     "electronegativity_pauling": 1.9,
     "electronegativity_allen": 1.6,
+    "electronegativity_miedema": 5.2,
     "ionisation_energies": [
         760,
         1260
@@ -4647,6 +4721,7 @@ Osmium = Element(**{
     "work_function": 5.93,
     "electronegativity_pauling": 2.2,
     "electronegativity_allen": 1.65,
+    "electronegativity_miedema": 5.4,
     "ionisation_energies": [
         840,
         1600
@@ -4712,6 +4787,7 @@ Iridium = Element(**{
     "work_function": 5.67,
     "electronegativity_pauling": 2.2,
     "electronegativity_allen": 1.68,
+    "electronegativity_miedema": 5.55,
     "ionisation_energies": [
         880,
         1600
@@ -4778,6 +4854,7 @@ Platinum = Element(**{
     "work_function": 5.64,
     "electronegativity_pauling": 2.28,
     "electronegativity_allen": 1.72,
+    "electronegativity_miedema": 5.65,
     "ionisation_energies": [
         870,
         1791
@@ -4844,6 +4921,7 @@ Gold = Element(**{
     "work_function": 5.47,
     "electronegativity_pauling": 2.54,
     "electronegativity_allen": 1.92,
+    "electronegativity_miedema": 5.15,
     "ionisation_energies": [
         890.1,
         1980
@@ -4910,6 +4988,7 @@ Mercury = Element(**{
     "work_function": 4.5,
     "electronegativity_pauling": 2,
     "electronegativity_allen": 1.765,
+    "electronegativity_miedema": 4.2,
     "ionisation_energies": [
         1007.1,
         1810
@@ -4979,6 +5058,7 @@ Thallium = Element(**{
     "work_function": 3.84,
     "electronegativity_pauling": 1.62,
     "electronegativity_allen": 1.789,
+    "electronegativity_miedema": 3.9,
     "ionisation_energies": [
         589.4,
         1971
@@ -5048,6 +5128,7 @@ Lead = Element(**{
     "work_function": 4.25,
     "electronegativity_pauling": 1.87,
     "electronegativity_allen": 1.854,
+    "electronegativity_miedema": 4.1,
     "ionisation_energies": [
         715.6,
         1450.5
@@ -5117,6 +5198,7 @@ Bismuth = Element(**{
     "work_function": 4.34,
     "electronegativity_pauling": 2.02,
     "electronegativity_allen": 2.01,
+    "electronegativity_miedema": 4.15,
     "ionisation_energies": [
         703,
         1610
@@ -5186,6 +5268,7 @@ Polonium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 2,
     "electronegativity_allen": 2.19,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         812.1
     ],
@@ -5254,6 +5337,7 @@ Astatine = Element(**{
     "work_function": None,
     "electronegativity_pauling": 2.2,
     "electronegativity_allen": 2.39,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         899.003
     ],
@@ -5322,6 +5406,7 @@ Radon = Element(**{
     "work_function": None,
     "electronegativity_pauling": 2.2,
     "electronegativity_allen": 2.6,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1037
     ],
@@ -5376,6 +5461,7 @@ Francium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 0.7,
     "electronegativity_allen": 0.67,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         380
     ],
@@ -5431,6 +5517,7 @@ Radium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 0.9,
     "electronegativity_allen": 0.89,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         509.3,
         979
@@ -5490,6 +5577,7 @@ Actinium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.1,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         499,
         1170
@@ -5550,6 +5638,7 @@ Thorium = Element(**{
     "work_function": 3.4,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.3,
     "ionisation_energies": [
         587,
         1110
@@ -5614,6 +5703,7 @@ Protactinium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.5,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         568,
         1128
@@ -5679,6 +5769,7 @@ Uranium = Element(**{
     "work_function": 3.63,
     "electronegativity_pauling": 1.38,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.9,
     "ionisation_energies": [
         597.6,
         1420
@@ -5743,6 +5834,7 @@ Neptunium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.36,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         604.5,
         1128
@@ -5803,6 +5895,7 @@ Plutonium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.28,
     "electronegativity_allen": None,
+    "electronegativity_miedema": 3.8,
     "ionisation_energies": [
         584.7,
         1128
@@ -5863,6 +5956,7 @@ Americium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         578.1158
     ],
@@ -5926,6 +6020,7 @@ Curium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         581,
         1196
@@ -5983,6 +6078,7 @@ Berkelium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         601,
         1186
@@ -6041,6 +6137,7 @@ Californium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         608,
         1206
@@ -6099,6 +6196,7 @@ Einsteinium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         619,
         1216
@@ -6155,6 +6253,7 @@ Fermium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         627,
         1225
@@ -6211,6 +6310,7 @@ Mendelevium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         635,
         1235
@@ -6267,6 +6367,7 @@ Nobelium = Element(**{
     "work_function": None,
     "electronegativity_pauling": 1.3,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         642,
         1254
@@ -6327,6 +6428,7 @@ Lawrencium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         470,
         1428
@@ -6387,6 +6489,7 @@ Rutherfordium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         580,
         1390
@@ -6447,6 +6550,7 @@ Dubnium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         665,
         1547
@@ -6507,6 +6611,7 @@ Seaborgium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         757,
         1733
@@ -6566,7 +6671,7 @@ Bohrium = Element(**{
     "mendeleev_modified": None,
     "work_function": None,
     "electronegativity_pauling": None,
-    "electronegativity_allen": None,
+    "electronegativity_allen": None, "electronegativity_miedema": None,
     "ionisation_energies": [
         757,
         1733
@@ -6626,6 +6731,7 @@ Hassium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         730,
         1760
@@ -6686,6 +6792,7 @@ Meitnerium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         800,
         1820
@@ -6746,6 +6853,7 @@ Darmstadtium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         960,
         1890
@@ -6806,6 +6914,7 @@ Roentgenium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1020,
         2070
@@ -6866,6 +6975,7 @@ Copernicium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         1155,
         2170
@@ -6930,6 +7040,7 @@ Nihonium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         707.2,
         2309
@@ -6994,6 +7105,7 @@ Flerovium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         832.2,
         1600
@@ -7058,6 +7170,7 @@ Moscovium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         538.3,
         1760
@@ -7122,6 +7235,7 @@ Livermorium = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         663.9,
         1330
@@ -7186,6 +7300,7 @@ Tennessine = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         736.9,
         1435.4
@@ -7250,6 +7365,7 @@ Oganesson = Element(**{
     "work_function": None,
     "electronegativity_pauling": None,
     "electronegativity_allen": None,
+    "electronegativity_miedema": None,
     "ionisation_energies": [
         860.1,
         1560
