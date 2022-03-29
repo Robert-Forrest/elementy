@@ -1,1 +1,1 @@
-from .periodictable import PeriodicTable
+
