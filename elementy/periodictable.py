@@ -9,14 +9,18 @@ class PeriodicTable():
 
         self.dataframe = pd.DataFrame(
             [element.__dict__ for element in self.elements])
+        self.dataframe = self.dataframe.set_index(['symbol'])
+
+        self.dict = {}
+        for element in self.elements:
+            self.dict[element.symbol] = element.__dict__
 
     def get_data(self, feature_names=None, elements=None):
 
         if elements is not None:
-            selected_data = self.dataframe.loc[self.dataframe['symbol'].isin(
-                elements)]
+            selected_data = self.dataframe.loc[elements]
         else:
-            selected_data = self.dataframe.copy()
+            selected_data = self.dataframe
 
         if feature_names is not None:
             if not isinstance(feature_names, list):
