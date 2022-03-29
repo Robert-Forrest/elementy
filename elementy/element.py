@@ -1,4 +1,5 @@
 import elementy.mulliken as mulliken
+import elementy.radii as radii
 
 
 class Element():
@@ -8,3 +9,6 @@ class Element():
 
         self.electronegativity_mulliken = \
             mulliken.calculate_mulliken_electronegativity(self)
+
+        self.radius = radii.calculate_radius(self)
+        self.atomic_volume = radii.calculate_atomic_volume(self)
