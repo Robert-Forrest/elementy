@@ -13,8 +13,8 @@ class PeriodicTable():
     def get_data(self, feature_name, elements=None):
 
         if elements is not None:
-            selected_data = self.dataframe.loc[self.dataframe['symbol'].isin(elements)][[
-                "symbol", feature_name]]
+            selected_data = self.dataframe.loc[self.dataframe['symbol'].isin(
+                elements)][["symbol", feature_name]]
         else:
             selected_data = self.dataframe[["symbol", feature_name]]
 
