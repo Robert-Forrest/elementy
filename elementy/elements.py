@@ -183,6 +183,7 @@ Berylium = Element(**{
     "block": "s",
     "series": "alkalineEarthMetal",
     "orbitals": [
+        *Helium.orbitals,
         {
             "orbital": "2s",
             "electrons": 2
@@ -239,6 +240,7 @@ Boron = Element(**{
     "block": "p",
     "series": "metalloid",
     "orbitals": [
+        *Helium.orbitals,
         {
             "orbital": "2s",
             "electrons": 2
@@ -299,6 +301,7 @@ Carbon = Element(**{
     "block": "p",
     "series": "nonMetal",
     "orbitals": [
+        *Helium.orbitals,
         {
             "orbital": "2s",
             "electrons": 2
@@ -359,6 +362,7 @@ Nitrogen = Element(**{
     "block": "p",
     "series": "nonMetal",
     "orbitals": [
+        *Helium.orbitals,
         {
             "orbital": "2s",
             "electrons": 2
@@ -418,6 +422,7 @@ Oxygen = Element(**{
     "block": "p",
     "series": "chalcogen",
     "orbitals": [
+        *Helium.orbitals,
         {
             "orbital": "2s",
             "electrons": 2
@@ -477,6 +482,7 @@ Fluorine = Element(**{
     "block": "p",
     "series": "halogen",
     "orbitals": [
+        *Helium.orbitals,
         {
             "orbital": "2s",
             "electrons": 2
@@ -536,6 +542,7 @@ Neon = Element(**{
     "block": "p",
     "series": "noble",
     "orbitals": [
+        *Helium.orbitals,
         {
             "orbital": "2s",
             "electrons": 2
@@ -596,6 +603,7 @@ Sodium = Element(**{
     "block": "s",
     "series": "alkaliMetal",
     "orbitals": [
+        *Neon.orbitals,
         {
             "orbital": "3s",
             "electrons": 1
@@ -653,6 +661,7 @@ Magnesium = Element(**{
     "block": "s",
     "series": "alkalineEarthMetal",
     "orbitals": [
+        *Neon.orbitals,
         {
             "orbital": "3s",
             "electrons": 2
@@ -710,6 +719,7 @@ Aluminium = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Neon.orbitals,
         {
             "orbital": "3s",
             "electrons": 2
@@ -771,6 +781,7 @@ Silicon = Element(**{
     "block": "p",
     "series": "metalloid",
     "orbitals": [
+        *Neon.orbitals,
         {
             "orbital": "3s",
             "electrons": 2
@@ -831,6 +842,7 @@ Phosphorus = Element(**{
     "block": "p",
     "series": "nonMetal",
     "orbitals": [
+        *Neon.orbitals,
         {
             "orbital": "3s",
             "electrons": 2
@@ -891,6 +903,7 @@ Sulfur = Element(**{
     "block": "p",
     "series": "chalcogen",
     "orbitals": [
+        *Neon.orbitals,
         {
             "orbital": "3s",
             "electrons": 2
@@ -951,6 +964,7 @@ Chlorine = Element(**{
     "block": "p",
     "series": "halogen",
     "orbitals": [
+        *Neon.orbitals,
         {
             "orbital": "3s",
             "electrons": 2
@@ -1010,6 +1024,7 @@ Argon = Element(**{
     "block": "p",
     "series": "noble",
     "orbitals": [
+        *Neon.orbitals,
         {
             "orbital": "3s",
             "electrons": 2
@@ -1070,6 +1085,7 @@ Potassium = Element(**{
     "block": "s",
     "series": "alkaliMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 1
@@ -1127,6 +1143,7 @@ Calcium = Element(**{
     "block": "s",
     "series": "alkalineEarthMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 2
@@ -1184,6 +1201,7 @@ Scandium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 2
@@ -1244,6 +1262,7 @@ Titanium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 2
@@ -1304,6 +1323,7 @@ Vanadium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 2
@@ -1364,6 +1384,7 @@ Chromium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 1
@@ -1424,6 +1445,7 @@ Manganese = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 2
@@ -1485,6 +1507,7 @@ Iron = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 2
@@ -1546,6 +1569,7 @@ Cobalt = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 2
@@ -1607,6 +1631,7 @@ Nickel = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 2
@@ -1668,6 +1693,7 @@ Copper = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 1
@@ -1729,6 +1755,7 @@ Zinc = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "4s",
             "electrons": 2
@@ -1790,6 +1817,7 @@ Gallium = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "3d",
             "electrons": 10
@@ -1854,6 +1882,7 @@ Germanium = Element(**{
     "block": "p",
     "series": "metalloid",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "3d",
             "electrons": 10
@@ -1918,6 +1947,7 @@ Arsenic = Element(**{
     "block": "p",
     "series": "metalloid",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "3d",
             "electrons": 10
@@ -1982,6 +2012,7 @@ Selenium = Element(**{
     "block": "p",
     "series": "chalcogen",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "3d",
             "electrons": 10
@@ -2046,6 +2077,7 @@ Bromine = Element(**{
     "block": "p",
     "series": "halogen",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "3d",
             "electrons": 10
@@ -2109,6 +2141,7 @@ Krypton = Element(**{
     "block": "p",
     "series": "noble",
     "orbitals": [
+        *Argon.orbitals,
         {
             "orbital": "3d",
             "electrons": 10
@@ -2173,6 +2206,7 @@ Rubidium = Element(**{
     "block": "s",
     "series": "alkaliMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 1
@@ -2230,6 +2264,7 @@ Strontium = Element(**{
     "block": "s",
     "series": "alkalineEarthMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 2
@@ -2286,6 +2321,7 @@ Yttrium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 2
@@ -2346,6 +2382,7 @@ Zirconium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 2
@@ -2406,6 +2443,7 @@ Niobium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 1
@@ -2466,6 +2504,7 @@ Molybdenum = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 1
@@ -2526,6 +2565,7 @@ Technetium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 2
@@ -2586,6 +2626,7 @@ Ruthenium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 1
@@ -2646,6 +2687,7 @@ Rhodium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 1
@@ -2707,6 +2749,7 @@ Palladium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "4d",
             "electrons": 10
@@ -2764,6 +2807,7 @@ Silver = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 1
@@ -2825,6 +2869,7 @@ Cadmium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "5s",
             "electrons": 2
@@ -2886,6 +2931,7 @@ Indium = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "4d",
             "electrons": 10
@@ -2950,6 +2996,7 @@ Tin = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "4d",
             "electrons": 10
@@ -3014,6 +3061,7 @@ Antimony = Element(**{
     "block": "p",
     "series": "metalloid",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "4d",
             "electrons": 10
@@ -3078,6 +3126,7 @@ Tellurium = Element(**{
     "block": "p",
     "series": "chalcogen",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "4d",
             "electrons": 10
@@ -3143,6 +3192,7 @@ Iodine = Element(**{
     "block": "p",
     "series": "halogen",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "4d",
             "electrons": 10
@@ -3196,7 +3246,6 @@ Xenon = Element(**{
     "symbol": "Xe",
     "atomicNumber": 54,
     "periodicNumber": 99,
-
     "radius_calculated": 1.08,
     "radius_vanDerWaals": 2.16,
     "radius_covalent": 1.4,
@@ -3207,6 +3256,7 @@ Xenon = Element(**{
     "block": "p",
     "series": "noble",
     "orbitals": [
+        *Krypton.orbitals,
         {
             "orbital": "4d",
             "electrons": 10
@@ -3271,6 +3321,7 @@ Caesium = Element(**{
     "block": "s",
     "series": "alkaliMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 1
@@ -3328,6 +3379,7 @@ Barium = Element(**{
     "block": "s",
     "series": "alkalineEarthMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3383,6 +3435,7 @@ Lanthanum = Element(**{
     "block": "d",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3442,6 +3495,7 @@ Cerium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3506,6 +3560,7 @@ Praseodymium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3566,6 +3621,7 @@ Neodymium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3626,6 +3682,7 @@ Promethium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3686,6 +3743,7 @@ Samarium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3746,6 +3804,7 @@ Europium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3806,6 +3865,7 @@ Gadolinium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3870,6 +3930,7 @@ Terbium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3930,6 +3991,7 @@ Dysprosium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -3990,6 +4052,7 @@ Holmium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -4050,6 +4113,7 @@ Erbium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -4110,6 +4174,7 @@ Thulium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -4170,6 +4235,7 @@ Ytterbium = Element(**{
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "6s",
             "electrons": 2
@@ -4230,6 +4296,7 @@ Lutetium = Element(**{
     "block": "d",
     "series": "lanthanide",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4294,6 +4361,7 @@ Hafnium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4358,6 +4426,7 @@ Tantalum = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4422,6 +4491,7 @@ Tungsten = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4486,6 +4556,7 @@ Rhenium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4550,6 +4621,7 @@ Osmium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4614,6 +4686,7 @@ Iridium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4679,6 +4752,7 @@ Platinum = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4744,6 +4818,7 @@ Gold = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4809,6 +4884,7 @@ Mercury = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "4f",
             "electrons": 14
@@ -4873,6 +4949,7 @@ Thallium = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "5d",
             "electrons": 10
@@ -4941,6 +5018,7 @@ Lead = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "5d",
             "electrons": 10
@@ -5009,6 +5087,7 @@ Bismuth = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "5d",
             "electrons": 10
@@ -5077,6 +5156,7 @@ Polonium = Element(**{
     "block": "p",
     "series": "chalcogen",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "5d",
             "electrons": 10
@@ -5144,6 +5224,7 @@ Astatine = Element(**{
     "block": "p",
     "series": "halogen",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "5d",
             "electrons": 10
@@ -5211,6 +5292,7 @@ Radon = Element(**{
     "block": "p",
     "series": "noble",
     "orbitals": [
+        *Xenon.orbitals,
         {
             "orbital": "5d",
             "electrons": 10
@@ -5276,6 +5358,7 @@ Francium = Element(**{
     "block": "s",
     "series": "alkaliMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 1
@@ -5330,6 +5413,7 @@ Radium = Element(**{
     "block": "s",
     "series": "alkalineEarthMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5384,6 +5468,7 @@ Actinium = Element(**{
     "block": "d",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5443,6 +5528,7 @@ Thorium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5502,6 +5588,7 @@ Protactinium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5566,6 +5653,7 @@ Uranium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5629,6 +5717,7 @@ Neptunium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5692,6 +5781,7 @@ Plutonium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5751,6 +5841,7 @@ Americium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5809,6 +5900,7 @@ Curium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5862,7 +5954,6 @@ Berkelium = Element(**{
     "symbol": "Bk",
     "atomicNumber": 97,
     "periodicNumber": 30,
-
     "radius_metallic": 1.7,
     "mass": 247,
     "group": None,
@@ -5870,6 +5961,7 @@ Berkelium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5927,6 +6019,7 @@ Californium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -5984,6 +6077,7 @@ Einsteinium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -6039,6 +6133,7 @@ Fermium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -6094,6 +6189,7 @@ Mendelevium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -6149,6 +6245,7 @@ Nobelium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "7s",
             "electrons": 2
@@ -6204,6 +6301,7 @@ Lawrencium = Element(**{
     "block": "f",
     "series": "actinide",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6263,6 +6361,7 @@ Rutherfordium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6322,6 +6421,7 @@ Dubnium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6381,6 +6481,7 @@ Seaborgium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6440,6 +6541,7 @@ Bohrium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6498,6 +6600,7 @@ Hassium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6557,6 +6660,7 @@ Meitnerium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6616,6 +6720,7 @@ Darmstadtium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6675,6 +6780,7 @@ Roentgenium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6734,6 +6840,7 @@ Copernicium = Element(**{
     "block": "d",
     "series": "transitionMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6793,6 +6900,7 @@ Nihonium = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6844,6 +6952,7 @@ Nihonium = Element(**{
     "debyeTemperature": None,
     "price": None
 })
+
 Flerovium = Element(**{
     "name": "Flerovium",
     "symbol": "Fl",
@@ -6855,6 +6964,7 @@ Flerovium = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6918,6 +7028,7 @@ Moscovium = Element(**{
     "block": "p",
     "series": "poorMetal",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -6981,6 +7092,7 @@ Livermorium = Element(**{
     "block": "p",
     "series": "chalcogen",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -7044,6 +7156,7 @@ Tennessine = Element(**{
     "block": "p",
     "series": "halogen",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
@@ -7107,6 +7220,7 @@ Oganesson = Element(**{
     "block": "p",
     "series": "noble",
     "orbitals": [
+        *Radon.orbitals,
         {
             "orbital": "5f",
             "electrons": 14
