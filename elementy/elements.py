@@ -83,7 +83,7 @@ Helium = Element(**{
     "protons": 2,
     "neutrons": 2,
     "valence": 0,
-    "valence_electrons": 8,
+    "valence_electrons": 2,
     "electron_affinity": -0.52,
     "wigner_seitz_electron_density": None,
     "chemical_scale": 2.418,
