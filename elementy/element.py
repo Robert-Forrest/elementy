@@ -12,3 +12,5 @@ class Element():
 
         self.radius = radii.calculate_radius(self)
         self.atomic_volume = radii.calculate_atomic_volume(self)
+
+        self.molar_volume = self.mass / self.density
