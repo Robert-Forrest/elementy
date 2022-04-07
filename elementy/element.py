@@ -98,7 +98,9 @@ def calculate_atomic_volume(element: Element) -> Union[float, None]:
         return (4. / 3.) * np.pi * element.radius**3
 
 
-def calculate_mulliken_electronegativity(element: Element) -> Union[float, None]:
+def calculate_mulliken_electronegativity(
+        element: Element) -> Union[float, None]:
+
     if(element.electron_affinity is not None and
        element.ionisation_energies is not None):
         return 0.5 * np.abs(element.electron_affinity +
