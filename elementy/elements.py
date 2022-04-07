@@ -4014,6 +4014,7 @@ Terbium = Element(**{
     "volume_miedema": 19.32,
     "mass": 158.92535,
     "period": 6,
+    "group": 3,
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
@@ -4077,6 +4078,7 @@ Dysprosium = Element(**{
     "mass": 162.5,
     "period": 6,
     "block": "f",
+    "group": 3,
     "series": "lanthanide",
     "orbitals": [
         *Xenon.orbitals,
@@ -4139,6 +4141,7 @@ Holmium = Element(**{
     "mass": 164.93033,
     "period": 6,
     "block": "f",
+    "group": 3,
     "series": "lanthanide",
     "orbitals": [
         *Xenon.orbitals,
@@ -4201,6 +4204,7 @@ Erbium = Element(**{
     "mass": 167.259,
     "period": 6,
     "block": "f",
+    "group": 3,
     "series": "lanthanide",
     "orbitals": [
         *Xenon.orbitals,
@@ -4325,6 +4329,7 @@ Ytterbium = Element(**{
     "volume_miedema": 17.97,
     "mass": 173.045,
     "period": 6,
+    "group": 3,
     "block": "f",
     "series": "lanthanide",
     "orbitals": [
