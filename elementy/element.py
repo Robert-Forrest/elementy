@@ -81,7 +81,7 @@ class Element:
             self)
 
 
-def calculate_radius(element: Element) -> float | None:
+def calculate_radius(element: Element) -> Union[float, None]:
 
     if element.radius_USE is not None:
         return element.radius_USE
