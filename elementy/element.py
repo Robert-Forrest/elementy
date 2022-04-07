@@ -1,8 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional
 
-import elementy.mulliken as mulliken
-import elementy.radii as radii
+import numpy as np
 
 
 @dataclass()
@@ -75,8 +74,32 @@ class Element:
 
     def __post_init__(self):
 
-        self.radius = radii.calculate_radius(self)
-        self.atomic_volume = radii.calculate_atomic_volume(self)
+        self.radius = calculate_radius(self)
+        self.atomic_volume = calculate_atomic_volume(self)
         self.molar_volume = self.mass / self.density
-        self.electronegativity_mulliken = mulliken.\
-            calculate_mulliken_electronegativity(self)
+        self.electronegativity_mulliken = calculate_mulliken_electronegativity(
+            self)
+
+
+def calculate_radius(element: Element) -> float | None:
+
+    if element.radius_USE is not None:
+        return element.radius_USE
+    elif element.radius_empirical is not None:
+        return element.radius_empirical
+    elif element.radius_metallic is not None:
+        return element.radius_metallic
+    elif element.radius_covalent is not None:
+        return element.radius_covalent
+
+
+def calculate_atomic_volume(element: Element) -> float | None:
+    if element.radius is not None:
+        return (4. / 3.) * np.pi * element.radius**3
+
+
+def calculate_mulliken_electronegativity(element: Element) -> float | None:
+    if(element.electron_affinity is not None and
+       element.ionisation_energies is not None):
+        return 0.5 * np.abs(element.electron_affinity +
+                            (element.ionisation_energies[0] / 96.485))
