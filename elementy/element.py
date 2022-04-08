@@ -4,20 +4,39 @@ from typing import Optional
 import numpy as np
 
 
-@dataclass()
+@dataclass
 class Element:
+    """Dataclass representing a chemical element.
+
+    Attributes
+        name (str): Name of the element.
+        electrons (int): Number of electrons in non-ionized state.
+        protons (int): Number of protons.
+        neutrons (int): Number of neutrons in most abundant isotope.
+        valence_electrons (int): Number of electrons in the outer shell.
+        group (int): Index referring to one of the 18 periodic table columns.
+        period (int): Index referring to one of the 7 periodic table rows.
+        block (str): Label referring to membership of group of elements with
+                     the same valence electron orbitals.
+        series (str): Label referring to membership of group of elements with
+                      similar properties.
+        orbitals (list): List of electrons and the orbitals they occupy.
+        atomic_number (int): Index of element in periodic table when reading
+                             left to right. Equal to proton number.
+    """
+
     name: str
     symbol: str
-    atomic_number: int
-    electrons: int
     protons: int
+    electrons: int
     neutrons: int
     valence_electrons: int
     group: int
     period: int
     block: str
     series: str
-    orbitals: dict
+    orbitals: list
+    atomic_number: int = field(init=False)
     periodic_number: Optional[int] = field(default=None)
     radius_empirical: Optional[float] = field(
         default=None, metadata={'unit': 'angstrom'})
