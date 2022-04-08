@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 import numpy as np
 
@@ -101,7 +101,7 @@ class Element:
             self)
 
 
-def calculate_radius(element: Element) -> float | None:
+def calculate_radius(element: Element) -> Union[float, None]:
 
     if element.radius_USE is not None:
         return element.radius_USE
@@ -113,12 +113,14 @@ def calculate_radius(element: Element) -> float | None:
         return element.radius_covalent
 
 
-def calculate_atomic_volume(element: Element) -> float | None:
+def calculate_atomic_volume(element: Element) -> Union[float, None]:
     if element.radius is not None:
         return (4. / 3.) * np.pi * element.radius**3
 
 
-def calculate_mulliken_electronegativity(element: Element) -> float | None:
+def calculate_mulliken_electronegativity(
+        element: Element) -> Union[float, None]:
+
     if(element.electron_affinity is not None and
        element.ionisation_energies is not None):
         return 0.5 * np.abs(element.electron_affinity +
