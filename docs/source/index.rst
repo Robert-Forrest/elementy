@@ -6,11 +6,14 @@
 Welcome to Elementy's documentation!
 ====================================
 
+Elementy is a Python package which provides an interface to a variety
+of data on the chemical elements.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
+   installation
 
 Indices and tables
 ==================
