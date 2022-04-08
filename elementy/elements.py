@@ -3,7 +3,6 @@ from elementy.element import Element
 Hydrogen = Element(**{
     "name": "Hydrogen",
     "symbol": "H",
-    "atomic_number": 1,
     "periodic_number": 89,
     "radius_empirical": 0.25,
     "radius_calculated": 0.53,
@@ -55,7 +54,6 @@ Hydrogen = Element(**{
 Helium = Element(**{
     "name": "Helium",
     "symbol": "He",
-    "atomic_number": 2,
     "periodic_number": 95,
     "radius_empirical": 1.2,
     "radius_calculated": 0.31,
@@ -105,7 +103,6 @@ Helium = Element(**{
 Lithium = Element(**{
     "name": "Lithium",
     "symbol": "Li",
-    "atomic_number": 3,
     "periodic_number": 1,
     "radius_empirical": 1.45,
     "radius_calculated": 1.67,
@@ -166,7 +163,6 @@ Lithium = Element(**{
 Berylium = Element(**{
     "name": "Berylium",
     "symbol": "Be",
-    "atomic_number": 4,
     "periodic_number": 64,
     "radius_empirical": 1.05,
     "radius_calculated": 1.12,
@@ -227,7 +223,6 @@ Berylium = Element(**{
 Boron = Element(**{
     "name": "Boron",
     "symbol": "B",
-    "atomic_number": 5,
     "periodic_number": 69,
     "radius_empirical": 0.85,
     "radius_calculated": 0.87,
@@ -291,7 +286,6 @@ Boron = Element(**{
 Carbon = Element(**{
     "name": "Carbon",
     "symbol": "C",
-    "atomic_number": 6,
     "periodic_number": 74,
     "radius_empirical": 0.7,
     "radius_calculated": 0.67,
@@ -355,7 +349,6 @@ Carbon = Element(**{
 Nitrogen = Element(**{
     "name": "Nitrogen",
     "symbol": "N",
-    "atomic_number": 7,
     "periodic_number": 79,
     "radius_empirical": 0.65,
     "radius_calculated": 0.56,
@@ -415,7 +408,6 @@ Nitrogen = Element(**{
 Oxygen = Element(**{
     "name": "Oxygen",
     "symbol": "O",
-    "atomic_number": 8,
     "periodic_number": 84,
     "radius_empirical": 0.6,
     "radius_calculated": 0.48,
@@ -471,7 +463,6 @@ Oxygen = Element(**{
 Fluorine = Element(**{
     "name": "Fluorine",
     "symbol": "F",
-    "atomic_number": 9,
     "periodic_number": 90,
     "radius_empirical": 0.5,
     "radius_calculated": 0.42,
@@ -526,7 +517,6 @@ Fluorine = Element(**{
 Neon = Element(**{
     "name": "Neon",
     "symbol": "Ne",
-    "atomic_number": 10,
     "periodic_number": 96,
     "radius_empirical": 1.6,
     "radius_calculated": 0.38,
@@ -582,7 +572,6 @@ Neon = Element(**{
 Sodium = Element(**{
     "name": "Sodium",
     "symbol": "Na",
-    "atomic_number": 11,
     "periodic_number": 2,
     "radius_empirical": 1.8,
     "radius_calculated": 1.9,
@@ -643,7 +632,6 @@ Sodium = Element(**{
 Magnesium = Element(**{
     "name": "Magnesium",
     "symbol": "Mg",
-    "atomic_number": 12,
     "periodic_number": 65,
     "radius_empirical": 1.5,
     "radius_calculated": 1.45,
@@ -704,7 +692,6 @@ Magnesium = Element(**{
 Aluminium = Element(**{
     "name": "Aluminium",
     "symbol": "Al",
-    "atomic_number": 13,
     "periodic_number": 70,
     "radius_empirical": 1.25,
     "radius_calculated": 1.18,
@@ -769,7 +756,6 @@ Aluminium = Element(**{
 Silicon = Element(**{
     "name": "Silicon",
     "symbol": "Si",
-    "atomic_number": 14,
     "periodic_number": 75,
     "radius_empirical": 1.1,
     "radius_calculated": 1.11,
@@ -834,7 +820,6 @@ Silicon = Element(**{
 Phosphorus = Element(**{
     "name": "Phosphorus",
     "symbol": "P",
-    "atomic_number": 15,
     "periodic_number": 80,
     "radius_empirical": 1,
     "radius_calculated": 0.98,
@@ -898,7 +883,6 @@ Phosphorus = Element(**{
 Sulfur = Element(**{
     "name": "Sulfur",
     "symbol": "S",
-    "atomic_number": 16,
     "periodic_number": 85,
     "radius_empirical": 1,
     "radius_calculated": 0.88,
@@ -955,7 +939,6 @@ Sulfur = Element(**{
 Chlorine = Element(**{
     "name": "Chlorine",
     "symbol": "Cl",
-    "atomic_number": 17,
     "periodic_number": 91,
     "radius_empirical": 1,
     "radius_calculated": 0.79,
@@ -1011,7 +994,6 @@ Chlorine = Element(**{
 Argon = Element(**{
     "name": "Argon",
     "symbol": "Ar",
-    "atomic_number": 18,
     "periodic_number": 97,
     "radius_empirical": 0.71,
     "radius_calculated": 0.71,
@@ -1067,7 +1049,6 @@ Argon = Element(**{
 Potassium = Element(**{
     "name": "Potassium",
     "symbol": "K",
-    "atomic_number": 19,
     "periodic_number": 3,
     "radius_empirical": 2.2,
     "radius_calculated": 2.43,
@@ -1128,7 +1109,6 @@ Potassium = Element(**{
 Calcium = Element(**{
     "name": "Calcium",
     "symbol": "Ca",
-    "atomic_number": 20,
     "periodic_number": 7,
     "radius_empirical": 1.8,
     "radius_calculated": 1.94,
@@ -1189,7 +1169,6 @@ Calcium = Element(**{
 Scandium = Element(**{
     "name": "Scandium",
     "symbol": "Sc",
-    "atomic_number": 21,
     "periodic_number": 11,
     "radius_empirical": 1.6,
     "radius_calculated": 1.84,
@@ -1254,7 +1233,6 @@ Scandium = Element(**{
 Titanium = Element(**{
     "name": "Titanium",
     "symbol": "Ti",
-    "atomic_number": 22,
     "periodic_number": 40,
     "radius_empirical": 1.4,
     "radius_calculated": 1.76,
@@ -1318,7 +1296,6 @@ Titanium = Element(**{
 Vanadium = Element(**{
     "name": "Vanadium",
     "symbol": "V",
-    "atomic_number": 23,
     "periodic_number": 43,
     "radius_empirical": 1.35,
     "radius_calculated": 1.71,
@@ -1382,7 +1359,6 @@ Vanadium = Element(**{
 Chromium = Element(**{
     "name": "Chromium",
     "symbol": "Cr",
-    "atomic_number": 24,
     "periodic_number": 46,
     "radius_empirical": 1.4,
     "radius_calculated": 1.66,
@@ -1446,7 +1422,6 @@ Chromium = Element(**{
 Manganese = Element(**{
     "name": "Manganese",
     "symbol": "Mn",
-    "atomic_number": 25,
     "periodic_number": 49,
     "radius_empirical": 1.4,
     "radius_calculated": 1.61,
@@ -1510,7 +1485,6 @@ Manganese = Element(**{
 Iron = Element(**{
     "name": "Iron",
     "symbol": "Fe",
-    "atomic_number": 26,
     "periodic_number": 52,
     "radius_empirical": 1.4,
     "radius_calculated": 1.56,
@@ -1574,7 +1548,6 @@ Iron = Element(**{
 Cobalt = Element(**{
     "name": "Cobalt",
     "symbol": "Co",
-    "atomic_number": 27,
     "periodic_number": 55,
     "radius_empirical": 1.35,
     "radius_calculated": 1.52,
@@ -1638,7 +1611,6 @@ Cobalt = Element(**{
 Nickel = Element(**{
     "name": "Nickel",
     "symbol": "Ni",
-    "atomic_number": 28,
     "periodic_number": 58,
     "radius_empirical": 1.35,
     "radius_calculated": 1.49,
@@ -1703,7 +1675,6 @@ Nickel = Element(**{
 Copper = Element(**{
     "name": "Copper",
     "symbol": "Cu",
-    "atomic_number": 29,
     "periodic_number": 61,
     "radius_empirical": 1.35,
     "radius_calculated": 1.45,
@@ -1768,7 +1739,6 @@ Copper = Element(**{
 Zinc = Element(**{
     "name": "Zinc",
     "symbol": "Zn",
-    "atomic_number": 30,
     "periodic_number": 66,
     "radius_empirical": 1.35,
     "radius_calculated": 1.42,
@@ -1833,7 +1803,6 @@ Zinc = Element(**{
 Gallium = Element(**{
     "name": "Gallium",
     "symbol": "Ga",
-    "atomic_number": 31,
     "periodic_number": 71,
     "radius_empirical": 1.3,
     "radius_calculated": 1.36,
@@ -1902,7 +1871,6 @@ Gallium = Element(**{
 Germanium = Element(**{
     "name": "Germanium",
     "symbol": "Ge",
-    "atomic_number": 32,
     "periodic_number": 76,
     "radius_empirical": 1.25,
     "radius_calculated": 1.25,
@@ -1970,7 +1938,6 @@ Germanium = Element(**{
 Arsenic = Element(**{
     "name": "Arsenic",
     "symbol": "As",
-    "atomic_number": 33,
     "periodic_number": 81,
     "radius_empirical": 1.15,
     "radius_calculated": 1.14,
@@ -2038,7 +2005,6 @@ Arsenic = Element(**{
 Selenium = Element(**{
     "name": "Selenium",
     "symbol": "Se",
-    "atomic_number": 34,
     "periodic_number": 86,
     "radius_empirical": 1.15,
     "radius_calculated": 1.03,
@@ -2102,7 +2068,6 @@ Selenium = Element(**{
 Bromine = Element(**{
     "name": "Bromine",
     "symbol": "Br",
-    "atomic_number": 35,
     "periodic_number": 92,
     "radius_empirical": 1.15,
     "radius_calculated": 0.94,
@@ -2162,7 +2127,6 @@ Bromine = Element(**{
 Krypton = Element(**{
     "name": "Krypton",
     "symbol": "Kr",
-    "atomic_number": 36,
     "periodic_number": 98,
 
     "radius_calculated": 0.88,
@@ -2222,7 +2186,6 @@ Krypton = Element(**{
 Rubidium = Element(**{
     "name": "Rubidium",
     "symbol": "Rb",
-    "atomic_number": 37,
     "periodic_number": 4,
     "radius_empirical": 2.35,
     "radius_calculated": 2.65,
@@ -2283,7 +2246,6 @@ Rubidium = Element(**{
 Strontium = Element(**{
     "name": "Strontium",
     "symbol": "Sr",
-    "atomic_number": 38,
     "periodic_number": 8,
     "radius_empirical": 2,
     "radius_calculated": 2.19,
@@ -2344,7 +2306,6 @@ Strontium = Element(**{
 Yttrium = Element(**{
     "name": "Yttrium",
     "symbol": "Y",
-    "atomic_number": 39,
     "periodic_number": 12,
     "radius_empirical": 1.8,
     "radius_calculated": 2.12,
@@ -2408,7 +2369,6 @@ Yttrium = Element(**{
 Zirconium = Element(**{
     "name": "Zirconium",
     "symbol": "Zr",
-    "atomic_number": 40,
     "periodic_number": 41,
     "radius_empirical": 1.55,
     "radius_calculated": 2.06,
@@ -2472,7 +2432,6 @@ Zirconium = Element(**{
 Niobium = Element(**{
     "name": "Niobium",
     "symbol": "Nb",
-    "atomic_number": 41,
     "periodic_number": 44,
     "radius_empirical": 1.45,
     "radius_calculated": 1.98,
@@ -2536,7 +2495,6 @@ Niobium = Element(**{
 Molybdenum = Element(**{
     "name": "Molybdenum",
     "symbol": "Mo",
-    "atomic_number": 42,
     "periodic_number": 47,
     "radius_empirical": 1.45,
     "radius_calculated": 1.9,
@@ -2600,7 +2558,6 @@ Molybdenum = Element(**{
 Technetium = Element(**{
     "name": "Technetium",
     "symbol": "Tc",
-    "atomic_number": 43,
     "periodic_number": 50,
     "radius_empirical": 1.35,
     "radius_calculated": 1.83,
@@ -2664,7 +2621,6 @@ Technetium = Element(**{
 Ruthenium = Element(**{
     "name": "Ruthenium",
     "symbol": "Ru",
-    "atomic_number": 44,
     "periodic_number": 53,
     "radius_empirical": 1.3,
     "radius_calculated": 1.78,
@@ -2728,7 +2684,6 @@ Ruthenium = Element(**{
 Rhodium = Element(**{
     "name": "Rhodium",
     "symbol": "Rh",
-    "atomic_number": 45,
     "periodic_number": 56,
     "radius_empirical": 1.35,
     "radius_calculated": 1.73,
@@ -2792,7 +2747,6 @@ Rhodium = Element(**{
 Palladium = Element(**{
     "name": "Palladium",
     "symbol": "Pd",
-    "atomic_number": 46,
     "periodic_number": 59,
     "radius_empirical": 1.4,
     "radius_calculated": 1.69,
@@ -2853,7 +2807,6 @@ Palladium = Element(**{
 Silver = Element(**{
     "name": "Silver",
     "symbol": "Ag",
-    "atomic_number": 47,
     "periodic_number": 62,
     "radius_empirical": 1.6,
     "radius_calculated": 1.65,
@@ -2918,7 +2871,6 @@ Silver = Element(**{
 Cadmium = Element(**{
     "name": "Cadmium",
     "symbol": "Cd",
-    "atomic_number": 48,
     "periodic_number": 67,
     "radius_empirical": 1.55,
     "radius_calculated": 1.61,
@@ -2983,7 +2935,6 @@ Cadmium = Element(**{
 Indium = Element(**{
     "name": "Indium",
     "symbol": "In",
-    "atomic_number": 49,
     "periodic_number": 72,
     "radius_empirical": 1.55,
     "radius_calculated": 1.56,
@@ -3052,7 +3003,6 @@ Indium = Element(**{
 Tin = Element(**{
     "name": "Tin",
     "symbol": "Sn",
-    "atomic_number": 50,
     "periodic_number": 77,
     "radius_empirical": 1.45,
     "radius_calculated": 1.45,
@@ -3120,7 +3070,6 @@ Tin = Element(**{
 Antimony = Element(**{
     "name": "Antimony",
     "symbol": "Sb",
-    "atomic_number": 51,
     "periodic_number": 82,
     "radius_empirical": 1.45,
     "radius_calculated": 1.33,
@@ -3188,7 +3137,6 @@ Antimony = Element(**{
 Tellurium = Element(**{
     "name": "Tellurium",
     "symbol": "Te",
-    "atomic_number": 52,
     "periodic_number": 87,
     "radius_empirical": 1.4,
     "radius_calculated": 1.23,
@@ -3256,7 +3204,6 @@ Tellurium = Element(**{
 Iodine = Element(**{
     "name": "Iodine",
     "symbol": "I",
-    "atomic_number": 53,
     "periodic_number": 93,
     "radius_empirical": 1.4,
     "radius_calculated": 1.15,
@@ -3318,7 +3265,6 @@ Iodine = Element(**{
 Xenon = Element(**{
     "name": "Xenon",
     "symbol": "Xe",
-    "atomic_number": 54,
     "periodic_number": 99,
     "radius_calculated": 1.08,
     "radius_vanDerWaals": 2.16,
@@ -3377,7 +3323,6 @@ Xenon = Element(**{
 Caesium = Element(**{
     "name": "Caesium",
     "symbol": "Cs",
-    "atomic_number": 55,
     "periodic_number": 5,
     "radius_empirical": 2.65,
     "radius_calculated": 2.98,
@@ -3438,7 +3383,6 @@ Caesium = Element(**{
 Barium = Element(**{
     "name": "Barium",
     "symbol": "Ba",
-    "atomic_number": 56,
     "periodic_number": 9,
     "radius_empirical": 2.15,
     "radius_calculated": 2.53,
@@ -3499,7 +3443,6 @@ Barium = Element(**{
 Lanthanum = Element(**{
     "name": "Lanthanum",
     "symbol": "La",
-    "atomic_number": 57,
     "periodic_number": 13,
     "radius_empirical": 1.95,
     "radius_covalent": 2.07,
@@ -3561,7 +3504,6 @@ Lanthanum = Element(**{
 Cerium = Element(**{
     "name": "Cerium",
     "symbol": "Ce",
-    "atomic_number": 58,
     "periodic_number": 15,
     "radius_empirical": 1.85,
     "radius_covalent": 2.04,
@@ -3627,7 +3569,6 @@ Cerium = Element(**{
 Praseodymium = Element(**{
     "name": "Praseodymium",
     "symbol": "Pr",
-    "atomic_number": 59,
     "periodic_number": 17,
     "radius_empirical": 1.85,
     "radius_calculated": 2.47,
@@ -3690,7 +3631,6 @@ Praseodymium = Element(**{
 Neodymium = Element(**{
     "name": "Neodymium",
     "symbol": "Nd",
-    "atomic_number": 60,
     "periodic_number": 19,
     "radius_empirical": 1.85,
     "radius_calculated": 2.06,
@@ -3753,7 +3693,6 @@ Neodymium = Element(**{
 Promethium = Element(**{
     "name": "Promethium",
     "symbol": "Pm",
-    "atomic_number": 61,
     "periodic_number": 21,
     "radius_empirical": 1.85,
     "radius_calculated": 2.05,
@@ -3812,7 +3751,6 @@ Promethium = Element(**{
 Samarium = Element(**{
     "name": "Samarium",
     "symbol": "Sm",
-    "atomic_number": 62,
     "periodic_number": 23,
     "radius_empirical": 1.85,
     "radius_calculated": 2.38,
@@ -3875,7 +3813,6 @@ Samarium = Element(**{
 Europium = Element(**{
     "name": "Europium",
     "symbol": "Eu",
-    "atomic_number": 63,
     "periodic_number": 25,
     "radius_empirical": 1.85,
     "radius_calculated": 2.31,
@@ -3937,7 +3874,6 @@ Europium = Element(**{
 Gadolinium = Element(**{
     "name": "Gadolinium",
     "symbol": "Gd",
-    "atomic_number": 64,
     "periodic_number": 27,
     "radius_empirical": 1.8,
     "radius_calculated": 2.33,
@@ -4004,7 +3940,6 @@ Gadolinium = Element(**{
 Terbium = Element(**{
     "name": "Terbium",
     "symbol": "Tb",
-    "atomic_number": 65,
     "periodic_number": 29,
     "radius_empirical": 1.75,
     "radius_calculated": 2.25,
@@ -4067,7 +4002,6 @@ Terbium = Element(**{
 Dysprosium = Element(**{
     "name": "Dysprosium",
     "symbol": "Dy",
-    "atomic_number": 66,
     "periodic_number": 31,
     "radius_empirical": 1.75,
     "radius_calculated": 2.28,
@@ -4130,7 +4064,6 @@ Dysprosium = Element(**{
 Holmium = Element(**{
     "name": "Holmium",
     "symbol": "Ho",
-    "atomic_number": 67,
     "periodic_number": 33,
     "radius_empirical": 1.75,
     "radius_calculated": 2.26,
@@ -4193,7 +4126,6 @@ Holmium = Element(**{
 Erbium = Element(**{
     "name": "Erbium",
     "symbol": "Er",
-    "atomic_number": 68,
     "periodic_number": 35,
     "radius_empirical": 1.75,
     "radius_calculated": 2.26,
@@ -4256,7 +4188,6 @@ Erbium = Element(**{
 Thulium = Element(**{
     "name": "Thulium",
     "symbol": "Tm",
-    "atomic_number": 69,
     "periodic_number": 37,
     "radius_empirical": 1.75,
     "radius_calculated": 2.22,
@@ -4319,7 +4250,6 @@ Thulium = Element(**{
 Ytterbium = Element(**{
     "name": "Ytterbium",
     "symbol": "Yb",
-    "atomic_number": 70,
     "periodic_number": 38,
     "radius_empirical": 1.75,
     "radius_calculated": 2.22,
@@ -4382,7 +4312,6 @@ Ytterbium = Element(**{
 Lutetium = Element(**{
     "name": "Lutetium",
     "symbol": "Lu",
-    "atomic_number": 71,
     "periodic_number": 39,
     "radius_empirical": 1.75,
     "radius_calculated": 2.17,
@@ -4450,7 +4379,6 @@ Lutetium = Element(**{
 Hafnium = Element(**{
     "name": "Hafnium",
     "symbol": "Hf",
-    "atomic_number": 72,
     "periodic_number": 42,
     "radius_empirical": 1.55,
     "radius_calculated": 2.08,
@@ -4518,7 +4446,6 @@ Hafnium = Element(**{
 Tantalum = Element(**{
     "name": "Tantalum",
     "symbol": "Ta",
-    "atomic_number": 73,
     "periodic_number": 45,
     "radius_empirical": 1.45,
     "radius_calculated": 2,
@@ -4586,7 +4513,6 @@ Tantalum = Element(**{
 Tungsten = Element(**{
     "name": "Tungsten",
     "symbol": "W",
-    "atomic_number": 74,
     "periodic_number": 48,
     "radius_empirical": 1.35,
     "radius_calculated": 1.93,
@@ -4654,7 +4580,6 @@ Tungsten = Element(**{
 Rhenium = Element(**{
     "name": "Rhenium",
     "symbol": "Re",
-    "atomic_number": 75,
     "periodic_number": 51,
     "radius_empirical": 1.35,
     "radius_calculated": 1.88,
@@ -4722,7 +4647,6 @@ Rhenium = Element(**{
 Osmium = Element(**{
     "name": "Osmium",
     "symbol": "Os",
-    "atomic_number": 76,
     "periodic_number": 54,
     "radius_empirical": 1.3,
     "radius_calculated": 1.85,
@@ -4790,7 +4714,6 @@ Osmium = Element(**{
 Iridium = Element(**{
     "name": "Iridium",
     "symbol": "Ir",
-    "atomic_number": 77,
     "periodic_number": 57,
     "radius_empirical": 1.35,
     "radius_calculated": 1.8,
@@ -4858,7 +4781,6 @@ Iridium = Element(**{
 Platinum = Element(**{
     "name": "Platinum",
     "symbol": "Pt",
-    "atomic_number": 78,
     "periodic_number": 60,
     "radius_empirical": 1.35,
     "radius_calculated": 1.77,
@@ -4927,7 +4849,6 @@ Platinum = Element(**{
 Gold = Element(**{
     "name": "Gold",
     "symbol": "Au",
-    "atomic_number": 79,
     "periodic_number": 63,
     "radius_empirical": 1.35,
     "radius_calculated": 1.74,
@@ -4996,7 +4917,6 @@ Gold = Element(**{
 Mercury = Element(**{
     "name": "Mercury",
     "symbol": "Hg",
-    "atomic_number": 80,
     "periodic_number": 68,
     "radius_empirical": 1.5,
     "radius_calculated": 1.71,
@@ -5064,7 +4984,6 @@ Mercury = Element(**{
 Thallium = Element(**{
     "name": "Thallium",
     "symbol": "Tl",
-    "atomic_number": 81,
     "periodic_number": 73,
     "radius_empirical": 1.9,
     "radius_calculated": 1.56,
@@ -5137,7 +5056,6 @@ Thallium = Element(**{
 Lead = Element(**{
     "name": "Lead",
     "symbol": "Pb",
-    "atomic_number": 82,
     "periodic_number": 78,
     "radius_empirical": 1.8,
     "radius_calculated": 1.54,
@@ -5209,7 +5127,6 @@ Lead = Element(**{
 Bismuth = Element(**{
     "name": "Bismuth",
     "symbol": "Bi",
-    "atomic_number": 83,
     "periodic_number": 83,
     "radius_empirical": 1.6,
     "radius_calculated": 1.43,
@@ -5281,7 +5198,6 @@ Bismuth = Element(**{
 Polonium = Element(**{
     "name": "Polonium",
     "symbol": "Po",
-    "atomic_number": 84,
     "periodic_number": 88,
     "radius_empirical": 1.9,
     "radius_calculated": 1.35,
@@ -5345,7 +5261,6 @@ Polonium = Element(**{
 Astatine = Element(**{
     "name": "Astatine",
     "symbol": "At",
-    "atomic_number": 85,
     "periodic_number": 94,
 
     "radius_calculated": 1.27,
@@ -5404,7 +5319,6 @@ Astatine = Element(**{
 Radon = Element(**{
     "name": "Radon",
     "symbol": "Rn",
-    "atomic_number": 86,
     "periodic_number": 100,
 
     "radius_calculated": 1.2,
@@ -5466,7 +5380,6 @@ Radon = Element(**{
 Francium = Element(**{
     "name": "Francium",
     "symbol": "Fr",
-    "atomic_number": 87,
     "periodic_number": 6,
 
     "radius_vanDerWaals": 3.48,
@@ -5511,7 +5424,6 @@ Francium = Element(**{
 Radium = Element(**{
     "name": "Radium",
     "symbol": "Ra",
-    "atomic_number": 88,
     "periodic_number": 10,
     "radius_empirical": 2.15,
     "radius_vanDerWaals": 2.83,
@@ -5562,7 +5474,6 @@ Radium = Element(**{
 Actinium = Element(**{
     "name": "Actinium",
     "symbol": "Ac",
-    "atomic_number": 89,
     "periodic_number": 14,
     "radius_empirical": 1.95,
     "radius_covalent": 2.15,
@@ -5616,7 +5527,6 @@ Actinium = Element(**{
 Thorium = Element(**{
     "name": "Thorium",
     "symbol": "Th",
-    "atomic_number": 90,
     "periodic_number": 16,
     "radius_empirical": 1.8,
     "radius_covalent": 2.06,
@@ -5678,7 +5588,6 @@ Thorium = Element(**{
 Protactinium = Element(**{
     "name": "Protactinium",
     "symbol": "Pa",
-    "atomic_number": 91,
     "periodic_number": 18,
     "radius_empirical": 1.8,
     "radius_covalent": 2,
@@ -5737,7 +5646,6 @@ Protactinium = Element(**{
 Uranium = Element(**{
     "name": "Uranium",
     "symbol": "U",
-    "atomic_number": 92,
     "periodic_number": 20,
     "radius_empirical": 1.75,
     "radius_vanDerWaals": 1.86,
@@ -5804,7 +5712,6 @@ Uranium = Element(**{
 Neptunium = Element(**{
     "name": "Neptunium",
     "symbol": "Np",
-    "atomic_number": 93,
     "periodic_number": 22,
     "radius_empirical": 1.75,
     "radius_covalent": 1.9,
@@ -5864,7 +5771,6 @@ Neptunium = Element(**{
 Plutonium = Element(**{
     "name": "Plutonium",
     "symbol": "Pu",
-    "atomic_number": 94,
     "periodic_number": 24,
     "radius_empirical": 1.75,
     "radius_covalent": 1.87,
@@ -5925,7 +5831,6 @@ Plutonium = Element(**{
 Americium = Element(**{
     "name": "Americium",
     "symbol": "Am",
-    "atomic_number": 95,
     "periodic_number": 26,
     "radius_empirical": 1.75,
     "radius_covalent": 1.8,
@@ -5978,7 +5883,6 @@ Americium = Element(**{
 Curium = Element(**{
     "name": "Curium",
     "symbol": "Cm",
-    "atomic_number": 96,
     "periodic_number": 28,
     "radius_empirical": 1.76,
     "radius_covalent": 1.69,
@@ -6034,7 +5938,6 @@ Curium = Element(**{
 Berkelium = Element(**{
     "name": "Berkelium",
     "symbol": "Bk",
-    "atomic_number": 97,
     "periodic_number": 30,
     "radius_metallic": 1.7,
     "mass": 247,
@@ -6081,7 +5984,6 @@ Berkelium = Element(**{
 Californium = Element(**{
     "name": "Californium",
     "symbol": "Cf",
-    "atomic_number": 98,
     "periodic_number": 32,
     "radius_metallic": 1.86,
     "mass": 251,
@@ -6124,7 +6026,6 @@ Californium = Element(**{
 Einsteinium = Element(**{
     "name": "Einsteinium",
     "symbol": "Es",
-    "atomic_number": 99,
     "periodic_number": 34,
     "radius_metallic": 1.86,
     "mass": 252,
@@ -6166,7 +6067,6 @@ Einsteinium = Element(**{
 Fermium = Element(**{
     "name": "Fermium",
     "symbol": "Fm",
-    "atomic_number": 100,
     "periodic_number": 36,
     "mass": 257,
     "group": 3,
@@ -6206,7 +6106,6 @@ Fermium = Element(**{
 Mendelevium = Element(**{
     "name": "Mendelevium",
     "symbol": "Md",
-    "atomic_number": 101,
     "mass": 258,
     "group": 3,
     "period": 7,
@@ -6243,7 +6142,6 @@ Mendelevium = Element(**{
 Nobelium = Element(**{
     "name": "Nobelium",
     "symbol": "No",
-    "atomic_number": 102,
     "mass": 259,
     "group": 3,
     "period": 7,
@@ -6280,7 +6178,6 @@ Nobelium = Element(**{
 Lawrencium = Element(**{
     "name": "Lawrencium",
     "symbol": "Lr",
-    "atomic_number": 103,
     "mass": 262,
     "group": 3,
     "period": 7,
@@ -6320,7 +6217,6 @@ Lawrencium = Element(**{
 Rutherfordium = Element(**{
     "name": "Rutherfordium",
     "symbol": "Rf",
-    "atomic_number": 104,
     "mass": 267,
     "group": 4,
     "period": 7,
@@ -6360,7 +6256,6 @@ Rutherfordium = Element(**{
 Dubnium = Element(**{
     "name": "Dubnium",
     "symbol": "Db",
-    "atomic_number": 105,
     "mass": 270,
     "group": 5,
     "period": 7,
@@ -6398,7 +6293,6 @@ Dubnium = Element(**{
 Seaborgium = Element(**{
     "name": "Seaborgium",
     "symbol": "Sg",
-    "atomic_number": 106,
     "mass": 269,
     "group": 6,
     "period": 7,
@@ -6436,7 +6330,6 @@ Seaborgium = Element(**{
 Bohrium = Element(**{
     "name": "Bohrium",
     "symbol": "Bh",
-    "atomic_number": 107,
     "mass": 270,
     "group": 7,
     "period": 7,
@@ -6475,7 +6368,6 @@ Bohrium = Element(**{
 Hassium = Element(**{
     "name": "Hassium",
     "symbol": "Hs",
-    "atomic_number": 108,
     "mass": 270,
     "group": 8,
     "period": 7,
@@ -6512,7 +6404,6 @@ Hassium = Element(**{
 Meitnerium = Element(**{
     "name": "Meitnerium",
     "symbol": "Mt",
-    "atomic_number": 109,
     "mass": 278,
     "group": 9,
     "period": 7,
@@ -6549,7 +6440,6 @@ Meitnerium = Element(**{
 Darmstadtium = Element(**{
     "name": "Darmstadtium",
     "symbol": "Ds",
-    "atomic_number": 110,
     "mass": 281,
     "group": 10,
     "period": 7,
@@ -6586,7 +6476,6 @@ Darmstadtium = Element(**{
 Roentgenium = Element(**{
     "name": "Roentgenium",
     "symbol": "Rg",
-    "atomic_number": 111,
     "mass": 281,
     "group": 11,
     "period": 7,
@@ -6624,7 +6513,6 @@ Roentgenium = Element(**{
 Copernicium = Element(**{
     "name": "Copernicium",
     "symbol": "Cn",
-    "atomic_number": 112,
     "mass": 285,
     "group": 12,
     "period": 7,
@@ -6663,7 +6551,6 @@ Copernicium = Element(**{
 Nihonium = Element(**{
     "name": "Nihonium",
     "symbol": "Nh",
-    "atomic_number": 113,
     "mass": 286,
     "group": 13,
     "period": 7,
@@ -6709,7 +6596,6 @@ Nihonium = Element(**{
 Flerovium = Element(**{
     "name": "Flerovium",
     "symbol": "Fl",
-    "atomic_number": 114,
     "mass": 289,
     "group": 14,
     "period": 7,
@@ -6752,7 +6638,6 @@ Flerovium = Element(**{
 Moscovium = Element(**{
     "name": "Moscovium",
     "symbol": "Mc",
-    "atomic_number": 115,
     "mass": 289,
     "group": 15,
     "period": 7,
@@ -6797,7 +6682,6 @@ Moscovium = Element(**{
 Livermorium = Element(**{
     "name": "Livermorium",
     "symbol": "Lv",
-    "atomic_number": 116,
     "mass": 293,
     "group": 16,
     "period": 7,
@@ -6842,7 +6726,6 @@ Livermorium = Element(**{
 Tennessine = Element(**{
     "name": "Tennessine",
     "symbol": "Ts",
-    "atomic_number": 117,
     "mass": 293,
     "group": 17,
     "period": 7,
@@ -6885,7 +6768,6 @@ Tennessine = Element(**{
 Oganesson = Element(**{
     "name": "Oganesson",
     "symbol": "Og",
-    "atomic_number": 118,
     "mass": 295,
     "group": 18,
     "period": 7,
