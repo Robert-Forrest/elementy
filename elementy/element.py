@@ -8,7 +8,7 @@ import numpy as np
 class Element:
     """Dataclass representing a chemical element.
 
-    Attributes
+    Attributes:
         name (str): Name of the element.
         electrons (int): Number of electrons in non-ionized state.
         protons (int): Number of protons.
