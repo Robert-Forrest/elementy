@@ -93,6 +93,7 @@ class Element:
 
     def __post_init__(self):
 
+        self.atomic_number = self.protons
         self.radius = calculate_radius(self)
         self.atomic_volume = calculate_atomic_volume(self)
         self.molar_volume = self.mass / self.density
