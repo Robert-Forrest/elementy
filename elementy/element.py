@@ -5,7 +5,7 @@ import numpy as np
 
 
 @dataclass
-class Element:
+class Element(object):
     """Dataclass representing a chemical element.
 
     Attributes:
@@ -99,6 +99,9 @@ class Element:
         self.molar_volume = self.mass / self.density
         self.electronegativity_mulliken = calculate_mulliken_electronegativity(
             self)
+
+    def __getitem__(self, item):
+        return getattr(self, item)
 
 
 def calculate_radius(element: Element) -> Union[float, None]:
