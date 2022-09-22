@@ -1,5 +1,3 @@
 from .periodictable import PeriodicTable
 
-__all__ = [
-    "PeriodicTable"
-]
+__all__ = ["PeriodicTable"]

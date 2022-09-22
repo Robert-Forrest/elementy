@@ -14,5 +14,4 @@ def make_periodic_table():
 
 @dataclass
 class PeriodicTable:
-    elements: Dict[str, Element] = field(
-        default_factory=make_periodic_table)
+    elements: Dict[str, Element] = field(default_factory=make_periodic_table)

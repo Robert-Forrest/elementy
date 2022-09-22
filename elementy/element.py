@@ -39,23 +39,31 @@ class Element(object):
     atomic_number: int = field(init=False)
     periodic_number: Optional[int] = field(default=None)
     radius_empirical: Optional[float] = field(
-        default=None, metadata={'unit': 'angstrom'})
+        default=None, metadata={"unit": "angstrom"}
+    )
     radius_calculated: Optional[float] = field(
-        default=None, metadata={'unit': 'angstrom'})
+        default=None, metadata={"unit": "angstrom"}
+    )
     radius_vanDerWaals: Optional[float] = field(
-        default=None, metadata={'unit': 'angstrom'})
+        default=None, metadata={"unit": "angstrom"}
+    )
     radius_covalent: Optional[float] = field(
-        default=None, metadata={'unit': 'angstrom'})
+        default=None, metadata={"unit": "angstrom"}
+    )
     radius_metallic: Optional[float] = field(
-        default=None, metadata={'unit': 'angstrom'})
+        default=None, metadata={"unit": "angstrom"}
+    )
     radius_USE: Optional[float] = field(
-        default=None, metadata={'unit': 'angstrom'})
-    radius: float = field(init=False, metadata={'unit': 'angstrom'})
+        default=None, metadata={"unit": "angstrom"}
+    )
+    radius: float = field(init=False, metadata={"unit": "angstrom"})
     atomic_volume: float = field(
-        init=False, metadata={'unit': 'cubic angstrom'})
+        init=False, metadata={"unit": "cubic angstrom"}
+    )
     volume_miedema: Optional[float] = field(default=None)
-    mass: Optional[float] = field(default=None, metadata={
-                                  'unit': 'atomic mass units'})
+    mass: Optional[float] = field(
+        default=None, metadata={"unit": "atomic mass units"}
+    )
     valence: Optional[int] = field(default=None)
     electron_affinity: Optional[float] = field(default=None)
     wigner_seitz_electron_density: Optional[float] = field(default=None)
@@ -70,13 +78,16 @@ class Element(object):
     electronegativity_mulliken: float = field(init=False)
     miedema_R: Optional[float] = field(default=None)
     ionisation_energies: Optional[list] = field(
-        default=None, metadata={'unit': 'electron-volts'})
+        default=None, metadata={"unit": "electron-volts"}
+    )
     chemical_hardness: Optional[float] = field(default=None)
     chemical_potential: Optional[float] = field(default=None)
     melting_temperature: Optional[float] = field(
-        default=None, metadata={'unit': 'kelvin'})
+        default=None, metadata={"unit": "kelvin"}
+    )
     boiling_temperature: Optional[float] = field(
-        default=None, metadata={'unit': 'kelvin'})
+        default=None, metadata={"unit": "kelvin"}
+    )
     fusion_enthalpy: Optional[float] = field(default=None)
     vaporisation_enthalpy: Optional[float] = field(default=None)
     molar_heat_capacity: Optional[float] = field(default=None)
@@ -85,11 +96,13 @@ class Element(object):
     thermal_conductivity: Optional[float] = field(default=None)
     thermal_expansion: Optional[float] = field(default=None)
     density: Optional[float] = field(
-        default=None, metadata={'unit': 'grammes per cubic centimetre'})
+        default=None, metadata={"unit": "grammes per cubic centimetre"}
+    )
     cohesive_energy: Optional[float] = field(default=None)
     debye_temperature: Optional[float] = field(
-        default=None, metadata={'unit': 'kelvin'})
-    price: Optional[float] = field(default=None, metadata={'unit': 'dollars'})
+        default=None, metadata={"unit": "kelvin"}
+    )
+    price: Optional[float] = field(default=None, metadata={"unit": "dollars"})
 
     def __post_init__(self):
 
@@ -98,7 +111,8 @@ class Element(object):
         self.atomic_volume = calculate_atomic_volume(self)
         self.molar_volume = self.mass / self.density
         self.electronegativity_mulliken = calculate_mulliken_electronegativity(
-            self)
+            self
+        )
 
     def __getitem__(self, item):
         return getattr(self, item)
@@ -118,13 +132,18 @@ def calculate_radius(element: Element) -> Union[float, None]:
 
 def calculate_atomic_volume(element: Element) -> Union[float, None]:
     if element.radius is not None:
-        return (4. / 3.) * np.pi * element.radius**3
+        return (4.0 / 3.0) * np.pi * element.radius**3
 
 
 def calculate_mulliken_electronegativity(
-        element: Element) -> Union[float, None]:
+    element: Element,
+) -> Union[float, None]:
 
-    if(element.electron_affinity is not None and
-       element.ionisation_energies is not None):
-        return 0.5 * np.abs(element.electron_affinity +
-                            (element.ionisation_energies[0] / 96.485))
+    if (
+        element.electron_affinity is not None
+        and element.ionisation_energies is not None
+    ):
+        return 0.5 * np.abs(
+            element.electron_affinity
+            + (element.ionisation_energies[0] / 96.485)
+        )
