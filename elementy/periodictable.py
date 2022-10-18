@@ -14,4 +14,10 @@ def make_periodic_table():
 
 @dataclass
 class PeriodicTable:
+    """Dataclass representing the periodic table
+
+    :group: element
+
+    """
+
     elements: Dict[str, Element] = field(default_factory=make_periodic_table)

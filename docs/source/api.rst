@@ -3,4 +3,4 @@
 elementy
 ==========
 
-.. python-apigen-group:: elements
+.. python-apigen-group:: classes
