@@ -8,7 +8,7 @@ elements of the periodic table.
 ## Installation
 
 The metallurgy package can be installed from
-[pypi](https://pypi.org/project/metallurgy/) using pip:
+[pypi](https://pypi.org/project/elementy/) using pip:
 
 ``pip install elementy``
 
