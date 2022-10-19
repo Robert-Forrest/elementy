@@ -8,24 +8,37 @@ import numpy as np
 class Element(object):
     """Dataclass representing a chemical element.
 
-    :group: element
+    :group: elements
 
     Attributes
-    ==========
-        name (str): Name of the element.
-        electrons (int): Number of electrons in non-ionized state.
-        protons (int): Number of protons.
-        neutrons (int): Number of neutrons in most abundant isotope.
-        valence_electrons (int): Number of electrons in the outer shell.
-        group (int): Index referring to one of the 18 periodic table columns.
-        period (int): Index referring to one of the 7 periodic table rows.
-        block (str): Label referring to membership of group of elements with
-                     the same valence electron orbitals.
-        series (str): Label referring to membership of group of elements with
-                      similar properties.
-        orbitals (list): List of electrons and the orbitals they occupy.
-        atomic_number (int): Index of element in periodic table when reading
-                             left to right. Equal to proton number.
+    ----------
+
+    name:
+        Name of the element.
+    electrons
+        Number of electrons in non-ionized state.
+    protons
+        Number of protons.
+    neutrons
+        Number of neutrons in most abundant isotope.
+    valence_electrons
+        Number of electrons in the outer shell.
+    group
+        Index referring to one of the 18 periodic table columns.
+    period
+        Index referring to one of the 7 periodic table rows.
+    block
+        Label referring to membership of group of elements with
+        the same valence electron orbitals.
+    series
+        Label referring to membership of group of elements with
+        similar properties.
+    orbitals
+        List of electrons and the orbitals they occupy.
+    atomic_number
+        Index of element in periodic table when reading
+        left to right. Equal to proton number.
+
     """
 
     name: str
@@ -99,7 +112,7 @@ class Element(object):
     thermal_conductivity: Optional[float] = field(default=None)
     thermal_expansion: Optional[float] = field(default=None)
     density: Optional[float] = field(
-        default=None, metadata={"unit": "grammes per cubic centimetre"}
+        default=None, metadata={"unit": "grams per cubic centimetre"}
     )
     cohesive_energy: Optional[float] = field(default=None)
     debye_temperature: Optional[float] = field(
@@ -108,9 +121,14 @@ class Element(object):
     price: Optional[float] = field(default=None, metadata={"unit": "dollars"})
 
     def __post_init__(self):
+        """Set additional attributes that depend on attributes set during
+        __init__
+
+        :group: element.util
+        """
 
         self.atomic_number = self.protons
-        self.radius = calculate_radius(self)
+        self.radius = get_radius(self)
         self.atomic_volume = calculate_atomic_volume(self)
         self.molar_volume = self.mass / self.density
         self.electronegativity_mulliken = calculate_mulliken_electronegativity(
@@ -121,8 +139,11 @@ class Element(object):
         return getattr(self, item)
 
 
-def calculate_radius(element: Element) -> Union[float, None]:
+def get_radius(element: Element) -> Union[float, None]:
+    """Gets one of the radius data entries to represent the element
 
+    :group: element.util
+    """
     if element.radius_USE is not None:
         return element.radius_USE
     elif element.radius_empirical is not None:
@@ -134,6 +155,10 @@ def calculate_radius(element: Element) -> Union[float, None]:
 
 
 def calculate_atomic_volume(element: Element) -> Union[float, None]:
+    """Calculate the atomic volume from the atomic radius
+
+    :group: element.util
+    """
     if element.radius is not None:
         return (4.0 / 3.0) * np.pi * element.radius**3
 
@@ -141,7 +166,11 @@ def calculate_atomic_volume(element: Element) -> Union[float, None]:
 def calculate_mulliken_electronegativity(
     element: Element,
 ) -> Union[float, None]:
+    """Calculate the Mulliken electronegativity from the electron affinity and
+    ionisation energy
 
+    :group: element.util
+    """
     if (
         element.electron_affinity is not None
         and element.ionisation_energies is not None

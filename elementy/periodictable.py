@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from typing import Dict
 
 import elementy.elements as elements
-from .element import Element
+from elementy.element import Element
 
 
 def make_periodic_table():
@@ -16,7 +16,7 @@ def make_periodic_table():
 class PeriodicTable:
     """Dataclass representing the periodic table
 
-    :group: element
+    :group: elements
 
     """
 
