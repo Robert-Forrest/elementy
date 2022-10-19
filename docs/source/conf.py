@@ -36,6 +36,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
     "sphinx.ext.intersphinx",
+    "sphinx_mdinclude",
     "sphinx_immaterial",
     "sphinx_immaterial.apidoc.python.apigen",
     # "sphinx_search.extension",

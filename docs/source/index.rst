@@ -6,8 +6,11 @@
 Welcome to elementy's documentation!
 ======================================
 
+.. mdinclude:: ../../README.md
+
 .. toctree::
    :caption: API Reference
+   :hidden:
 
    api.rst
 

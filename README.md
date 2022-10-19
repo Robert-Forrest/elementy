@@ -2,8 +2,8 @@
 
 ![Tests](https://github.com/Robert-Forrest/elementy/actions/workflows/tests.yml/badge.svg)
 
-This package provides an interface to a variety of different data on
-elements of the periodic table.
+This package provides an interface to a variety of different data on elements of
+the periodic table.
 
 ## Installation
 
@@ -80,3 +80,6 @@ are `None` due to lack of experimental data available.
 - Debye temperature
 - Price-per-kilogramme
 
+## Documentation
+
+Documentation is available [here.](https://elementy.readthedocs.io/en/latest/api.html)
