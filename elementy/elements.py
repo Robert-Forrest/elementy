@@ -5643,7 +5643,7 @@ Tennessine = Element(
     **{
         "name": "Tennessine",
         "symbol": "Ts",
-        "mass": 293,
+        "mass": 294,
         "group": 17,
         "period": 7,
         "block": "p",
