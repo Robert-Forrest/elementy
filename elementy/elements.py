@@ -5583,7 +5583,7 @@ Moscovium = Element(
     **{
         "name": "Moscovium",
         "symbol": "Mc",
-        "mass": 289,
+        "mass": 290,
         "group": 15,
         "period": 7,
         "block": "p",
