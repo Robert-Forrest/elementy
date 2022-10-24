@@ -68,6 +68,8 @@ def linkcode_resolve(domain, info):
     if not info["module"]:
         return None
     filename = info["module"].replace(".", "/")
+    if filename == "elementy":
+        filename += "/__init__"
     return (
         "https://github.com/Robert-Forrest/elementy/blob/main/%s.py" % filename
     )
