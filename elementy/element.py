@@ -4,8 +4,8 @@ from typing import Optional, Union
 import numpy as np
 
 
-@dataclass
-class Element(object):
+@dataclass(frozen=True)
+class Element:
     """Dataclass representing a chemical element.
 
     :group: elements
@@ -73,9 +73,6 @@ class Element(object):
         default=None, metadata={"unit": "angstrom"}
     )
     radius: float = field(init=False, metadata={"unit": "angstrom"})
-    atomic_volume: float = field(
-        init=False, metadata={"unit": "cubic angstrom"}
-    )
     volume_miedema: Optional[float] = field(default=None)
     mass: Optional[float] = field(
         default=None, metadata={"unit": "atomic mass units"}
@@ -127,45 +124,47 @@ class Element(object):
         :group: element.util
         """
 
-        self.atomic_number = self.protons
-        self.radius = get_radius(self)
-        self.atomic_volume = calculate_atomic_volume(self)
-        self.molar_volume = self.mass / self.density
-        self.electronegativity_mulliken = calculate_mulliken_electronegativity(
-            self
+        super().__setattr__("atomic_number", self.protons)
+        super().__setattr__("radius", get_radius(self))
+        super().__setattr__("atomic_volume", calculate_atomic_volume(self))
+        super().__setattr__("molar_volume", self.mass / self.density)
+        super().__setattr__(
+            "electronegativity_mulliken",
+            calculate_mulliken_electronegativity(self),
         )
 
     def __getitem__(self, item):
         return getattr(self, item)
 
 
-def get_radius(element: Element) -> Union[float, None]:
+def calculate_atomic_volume(self) -> float:
+    """Calculate the atomic volume from the atomic radius
+
+    :group: element.util
+    """
+    if self.radius is not None:
+        volume = (4.0 / 3.0) * np.pi * self.radius**3
+        return volume
+
+
+def get_radius(element: Element) -> Optional[float]:
     """Gets one of the radius data entries to represent the element
 
     :group: element.util
     """
     if element.radius_USE is not None:
         return element.radius_USE
-    elif element.radius_empirical is not None:
+    if element.radius_empirical is not None:
         return element.radius_empirical
-    elif element.radius_metallic is not None:
+    if element.radius_metallic is not None:
         return element.radius_metallic
-    elif element.radius_covalent is not None:
+    if element.radius_covalent is not None:
         return element.radius_covalent
-
-
-def calculate_atomic_volume(element: Element) -> Union[float, None]:
-    """Calculate the atomic volume from the atomic radius
-
-    :group: element.util
-    """
-    if element.radius is not None:
-        return (4.0 / 3.0) * np.pi * element.radius**3
 
 
 def calculate_mulliken_electronegativity(
     element: Element,
-) -> Union[float, None]:
+) -> Optional[float]:
     """Calculate the Mulliken electronegativity from the electron affinity and
     ionisation energy
 
@@ -175,7 +174,8 @@ def calculate_mulliken_electronegativity(
         element.electron_affinity is not None
         and element.ionisation_energies is not None
     ):
-        return 0.5 * np.abs(
+        mulliken_electronegativity = 0.5 * np.abs(
             element.electron_affinity
             + (element.ionisation_energies[0] / 96.485)
         )
+        return mulliken_electronegativity
