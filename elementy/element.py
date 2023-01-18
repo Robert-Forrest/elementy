@@ -106,6 +106,7 @@ class Element:
     molar_heat_capacity: Optional[float] = field(default=None)
     molar_volume: float = field(init=False)
     structure: Optional[str] = field(default=None)
+    structure_0K: Optional[str] = field(default=None)
     thermal_conductivity: Optional[float] = field(default=None)
     thermal_expansion: Optional[float] = field(default=None)
     density: Optional[float] = field(
@@ -115,7 +116,9 @@ class Element:
     debye_temperature: Optional[float] = field(
         default=None, metadata={"unit": "kelvin"}
     )
-    price: Optional[float] = field(default=None, metadata={"unit": "dollars"})
+    price: Optional[float] = field(
+        default=None, metadata={"unit": "dollars per kilogramme"}
+    )
 
     def __post_init__(self):
         """Set additional attributes that depend on attributes set during
@@ -132,6 +135,8 @@ class Element:
             "electronegativity_mulliken",
             calculate_mulliken_electronegativity(self),
         )
+        if not hasattr(self, "structure_0K"):
+            super().__setattr__("structure_0K", self.structure)
 
     def __getitem__(self, item):
         return getattr(self, item)
