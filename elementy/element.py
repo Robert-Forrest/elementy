@@ -120,6 +120,9 @@ class Element:
     price: Optional[float] = field(
         default=None, metadata={"unit": "dollars per kilogramme"}
     )
+    magnetic_moment: Optional[float] = field(
+        default=None, metadata={"unit": "Bohr magneton"}
+    )
 
     def __post_init__(self):
         """Set additional attributes that depend on attributes set during

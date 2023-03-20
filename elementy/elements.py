@@ -1372,6 +1372,7 @@ Iron = Element(
         "cohesive_energy": 4.28,
         "debye_temperature": 373,
         "price": 0.424,
+        "magnetic_moment": 2.2,
     }
 )
 
@@ -1427,6 +1428,7 @@ Cobalt = Element(
         "cohesive_energy": 4.39,
         "debye_temperature": 386,
         "price": 32.8,
+        "magnetic_moment": 1.7,
     }
 )
 
@@ -1483,6 +1485,7 @@ Nickel = Element(
         "cohesive_energy": 4.44,
         "debye_temperature": 345,
         "price": 13.9,
+        "magnetic_moment": 0.6,
     }
 )
 
@@ -3060,6 +3063,7 @@ Lanthanum = Element(
         "cohesive_energy": 4.47,
         "debye_temperature": 135,
         "price": 4.92,
+        "magnetic_moment": 0,
     }
 )
 
@@ -3114,6 +3118,7 @@ Cerium = Element(
         "cohesive_energy": 4.32,
         "debye_temperature": 138,
         "price": 4.71,
+        "magnetic_moment": 2.5,
     }
 )
 
@@ -3168,6 +3173,7 @@ Praseodymium = Element(
         "cohesive_energy": 3.7,
         "debye_temperature": 138,
         "price": 103,
+        "magnetic_moment": 3.6,
     }
 )
 
@@ -3222,6 +3228,7 @@ Neodymium = Element(
         "cohesive_energy": 3.4,
         "debye_temperature": 148,
         "price": 57.5,
+        "magnetic_moment": 3.6,
     }
 )
 
@@ -3326,6 +3333,7 @@ Samarium = Element(
         "cohesive_energy": 2.14,
         "debye_temperature": 184,
         "price": 13.9,
+        "magnetic_moment": 1.7,
     }
 )
 
@@ -3379,6 +3387,7 @@ Europium = Element(
         "cohesive_energy": 1.86,
         "debye_temperature": 118,
         "price": 31.4,
+        "magnetic_moment": 3.5,
     }
 )
 
@@ -3434,6 +3443,7 @@ Gadolinium = Element(
         "cohesive_energy": 4.14,
         "debye_temperature": 155,
         "price": 28.6,
+        "magnetic_moment": 8.0,
     }
 )
 
@@ -3488,6 +3498,7 @@ Terbium = Element(
         "cohesive_energy": 4.05,
         "debye_temperature": 158,
         "price": 658,
+        "magnetic_moment": 9.8,
     }
 )
 
@@ -3542,6 +3553,7 @@ Dysprosium = Element(
         "cohesive_energy": 3.04,
         "debye_temperature": 158,
         "price": 307,
+        "magnetic_moment": 10.6,
     }
 )
 
@@ -3596,6 +3608,7 @@ Holmium = Element(
         "cohesive_energy": 3.14,
         "debye_temperature": 161,
         "price": 57.1,
+        "magnetic_moment": 10.7,
     }
 )
 
@@ -3650,6 +3663,7 @@ Erbium = Element(
         "cohesive_energy": 3.29,
         "debye_temperature": 168,
         "price": 26.4,
+        "magnetic_moment": 9.6,
     }
 )
 
@@ -3704,6 +3718,7 @@ Thulium = Element(
         "cohesive_energy": 2.42,
         "debye_temperature": 167,
         "price": 3000,
+        "magnetic_moment": 7.6,
     }
 )
 
@@ -3758,6 +3773,7 @@ Ytterbium = Element(
         "cohesive_energy": 1.6,
         "debye_temperature": 118,
         "price": 17.1,
+        "magnetic_moment": 4.9,
     }
 )
 
