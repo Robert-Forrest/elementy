@@ -107,6 +107,7 @@ class Element:
     molar_volume: float = field(init=False)
     structure: Optional[str] = field(default=None)
     structure_0K: Optional[str] = field(default=None)
+    molecule: Optional[dict] = field(default=None)
     thermal_conductivity: Optional[float] = field(default=None)
     thermal_expansion: Optional[float] = field(default=None)
     density: Optional[float] = field(
