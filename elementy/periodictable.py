@@ -35,8 +35,9 @@ class PeriodicTable:
 
             matches = []
             for element in self.elements:
-                if self.elements[element][key] == value:
-                    matches.append(self.elements[element])
+                if hasattr(self.elements[element], key):
+                    if self.elements[element][key] == value:
+                        matches.append(self.elements[element])
             return matches
         else:
             return self.elements
