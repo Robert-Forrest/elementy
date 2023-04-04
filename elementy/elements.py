@@ -298,7 +298,7 @@ Carbon = Element(
         "molar_heat_capacity": 8.517,
         "thermal_conductivity": 140,
         "thermal_expansion": 0.0000071,
-        "structure": "Af",
+        "structure": "A9",
         "density": 2.26,
         "cohesive_energy": 7.37,
         "debye_temperature": 1550,
