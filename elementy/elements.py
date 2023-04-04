@@ -5312,6 +5312,7 @@ Nobelium = Element(
         "melting_temperature": 1100,
         "structure": "A1",
         "density": 9.94,
+        "radius_covalent": 1.76,
     }
 )
 
