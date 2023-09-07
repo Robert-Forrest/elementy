@@ -113,6 +113,9 @@ class Element:
     density: Optional[float] = field(
         default=None, metadata={"unit": "grams per cubic centimetre"}
     )
+    lattice_constants: Optional[Tuple[float]] = field(
+        default=None, metadata={"unit": "angstrom"}
+    )
     cohesive_energy: Optional[float] = field(default=None)
     debye_temperature: Optional[float] = field(
         default=None, metadata={"unit": "kelvin"}
